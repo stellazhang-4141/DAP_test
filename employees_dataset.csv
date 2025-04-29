@@ -1,0 +1,1001 @@
+age,gender,education_level,years_of_experience,job_role,industry,certifications,salary
+52,Male,Master's,1,Manager,Technology,None,98716.8964448374
+36,Male,Bachelor's,37,Software Engineer,Manufacturing,AWS,110142.249070397
+35,Female,High School,40,Software Engineer,Finance,None,107560.641196311
+24,Male,Master's,11,Manager,Manufacturing,Google Cloud,98513.7062969853
+58,Male,High School,0,Consultant,Manufacturing,None,74906.0177603182
+35,Female,High School,26,Analyst,Technology,Google Cloud,100046.02931465
+46,Female,Master's,33,Analyst,Manufacturing,Google Cloud,119290.602224959
+47,Female,High School,38,Analyst,Finance,Google Cloud,115477.052688559
+48,Female,PhD,27,Consultant,Technology,CPA,134579.152102194
+26,Female,Bachelor's,4,Analyst,Finance,PMP,77354.8871936726
+48,Male,PhD,28,Consultant,Healthcare,AWS,138797.433300514
+49,Female,Master's,20,Manager,Finance,Google Cloud,139510.46361549
+30,Female,PhD,4,Analyst,Technology,None,87758.1710493598
+50,Male,Master's,11,Data Scientist,Finance,AWS,119275.820868156
+56,Female,Master's,35,Data Scientist,Healthcare,None,124088.901075474
+29,Male,Master's,28,Consultant,Education,PMP,110077.787551517
+47,Female,Master's,3,Data Scientist,Education,CPA,91460.2914511982
+28,Male,Bachelor's,39,Data Scientist,Education,None,114424.464166715
+30,Female,High School,24,Software Engineer,Education,CPA,82724.519585227
+40,Male,Master's,0,Analyst,Education,CPA,80782.1088416244
+57,Female,Bachelor's,25,Consultant,Technology,Google Cloud,116657.113874207
+35,Male,High School,15,Data Scientist,Manufacturing,AWS,89256.0859332293
+38,Female,High School,14,Analyst,Technology,None,63907.7323174106
+60,Female,Master's,13,Data Scientist,Manufacturing,PMP,115876.457783327
+33,Male,Bachelor's,9,Software Engineer,Technology,PMP,80032.3336978083
+36,Female,Bachelor's,27,Manager,Manufacturing,AWS,109910.95073956
+53,Female,PhD,13,Data Scientist,Education,CPA,119501.109579948
+28,Male,Bachelor's,12,Data Scientist,Education,AWS,93648.6968819057
+30,Male,Bachelor's,7,Consultant,Finance,AWS,86646.649562493
+31,Female,Bachelor's,26,Data Scientist,Finance,Google Cloud,115135.446787693
+44,Male,High School,17,Analyst,Education,CPA,81243.0081643451
+48,Male,PhD,14,Data Scientist,Healthcare,CPA,120754.688559375
+28,Female,PhD,33,Data Scientist,Finance,None,125175.680998436
+48,Female,Master's,20,Consultant,Technology,AWS,120455.092578859
+53,Male,Master's,24,Software Engineer,Technology,Google Cloud,126709.671714162
+59,Female,Master's,10,Data Scientist,Technology,Google Cloud,116993.363856792
+46,Female,Bachelor's,0,Analyst,Education,None,68952.4409660784
+55,Female,Master's,12,Data Scientist,Healthcare,None,101725.571127315
+50,Male,Bachelor's,39,Data Scientist,Technology,CPA,119521.196795111
+26,Male,High School,7,Manager,Technology,CPA,78260.6584680363
+29,Male,High School,17,Data Scientist,Healthcare,None,72608.6147754795
+33,Female,PhD,38,Data Scientist,Education,None,135182.286718395
+34,Female,Master's,23,Data Scientist,Manufacturing,AWS,104599.069431733
+39,Male,Master's,14,Software Engineer,Education,None,99653.8450209657
+54,Female,PhD,39,Software Engineer,Finance,None,147020.369916311
+48,Female,PhD,25,Software Engineer,Manufacturing,Google Cloud,122858.052466281
+46,Female,Master's,15,Software Engineer,Healthcare,None,92485.3656867245
+59,Male,Bachelor's,23,Data Scientist,Education,Google Cloud,112560.538287781
+42,Male,High School,31,Data Scientist,Healthcare,PMP,109313.393575317
+36,Male,High School,15,Analyst,Finance,AWS,81936.5374146344
+47,Male,High School,4,Analyst,Technology,None,63171.1228212535
+52,Female,High School,3,Data Scientist,Education,AWS,74934.1919039182
+37,Female,High School,25,Data Scientist,Education,AWS,101831.466117468
+51,Male,PhD,13,Manager,Healthcare,None,123878.469466215
+27,Male,PhD,7,Software Engineer,Healthcare,None,94234.3398092409
+29,Female,Bachelor's,21,Data Scientist,Healthcare,Google Cloud,103445.700457525
+43,Male,High School,14,Data Scientist,Technology,Google Cloud,101236.164291739
+43,Female,Bachelor's,29,Manager,Education,Google Cloud,118074.379497919
+60,Female,Bachelor's,30,Software Engineer,Manufacturing,Google Cloud,119258.722729338
+52,Male,Master's,9,Data Scientist,Technology,PMP,110941.532281532
+38,Female,High School,18,Software Engineer,Healthcare,None,79177.12343683
+55,Male,Master's,31,Analyst,Technology,CPA,124276.620470687
+25,Female,Master's,4,Consultant,Manufacturing,None,77391.8328750967
+34,Female,High School,0,Data Scientist,Education,PMP,66601.9110944056
+26,Female,Bachelor's,11,Consultant,Manufacturing,CPA,80759.8659049246
+46,Male,PhD,17,Analyst,Finance,Google Cloud,116742.21681462
+43,Female,Master's,5,Manager,Finance,None,105173.634495598
+46,Male,Bachelor's,14,Software Engineer,Healthcare,AWS,98308.991190168
+53,Female,High School,30,Consultant,Finance,CPA,108269.054697865
+46,Male,Master's,23,Manager,Finance,PMP,124173.337490966
+44,Male,Bachelor's,32,Data Scientist,Technology,PMP,119793.942591257
+56,Female,High School,29,Consultant,Healthcare,None,105383.614347521
+51,Male,Master's,28,Software Engineer,Finance,PMP,130090.073902419
+33,Male,High School,5,Consultant,Finance,None,74980.7885269031
+52,Male,Bachelor's,39,Manager,Education,CPA,140236.388851442
+51,Female,Bachelor's,20,Software Engineer,Manufacturing,CPA,94509.587267174
+56,Male,PhD,24,Data Scientist,Technology,CPA,139002.815054161
+35,Male,PhD,40,Analyst,Healthcare,None,137110.970439395
+50,Male,PhD,31,Manager,Manufacturing,Google Cloud,152221.818044809
+53,Female,PhD,14,Data Scientist,Healthcare,Google Cloud,123017.695304064
+28,Male,High School,7,Consultant,Finance,Google Cloud,79213.2289660702
+24,Female,PhD,21,Manager,Manufacturing,PMP,118823.477571741
+44,Male,PhD,21,Consultant,Manufacturing,PMP,120169.336790908
+36,Male,Master's,36,Manager,Manufacturing,PMP,123392.501119691
+42,Male,High School,7,Software Engineer,Technology,Google Cloud,77886.3638230484
+58,Male,Master's,19,Consultant,Technology,Google Cloud,128834.052182469
+29,Male,Bachelor's,35,Data Scientist,Manufacturing,None,113707.505255238
+31,Male,Master's,40,Consultant,Manufacturing,CPA,124976.451674345
+55,Male,Master's,10,Software Engineer,Healthcare,AWS,100282.26840188
+31,Female,Master's,30,Consultant,Manufacturing,CPA,98115.6698283123
+43,Female,High School,15,Consultant,Healthcare,CPA,87995.2453509915
+33,Male,PhD,9,Manager,Healthcare,Google Cloud,113409.659743684
+41,Female,High School,35,Software Engineer,Technology,AWS,102379.333236669
+38,Male,PhD,32,Data Scientist,Manufacturing,None,116543.10470792
+56,Male,High School,10,Data Scientist,Technology,Google Cloud,101501.610931755
+51,Male,PhD,1,Analyst,Healthcare,None,92726.0983120038
+36,Male,High School,7,Consultant,Healthcare,AWS,72357.8946829444
+45,Female,Bachelor's,22,Manager,Technology,Google Cloud,121152.62235112
+44,Female,Bachelor's,28,Software Engineer,Healthcare,AWS,112688.17918399
+28,Female,High School,30,Software Engineer,Education,None,85713.3690495429
+50,Male,PhD,20,Analyst,Technology,None,114910.557267405
+36,Male,High School,3,Software Engineer,Healthcare,Google Cloud,69725.3415694993
+44,Female,PhD,14,Consultant,Manufacturing,Google Cloud,117711.852340556
+47,Male,Bachelor's,34,Data Scientist,Education,CPA,116423.95427037
+59,Male,High School,31,Manager,Technology,AWS,118809.145841546
+53,Male,Master's,3,Consultant,Manufacturing,None,98856.7588092386
+28,Male,Bachelor's,17,Consultant,Technology,None,82667.3383119172
+48,Female,High School,16,Software Engineer,Manufacturing,Google Cloud,81988.3027319412
+26,Male,High School,9,Data Scientist,Technology,None,65782.1932751324
+27,Female,Bachelor's,19,Consultant,Healthcare,PMP,89585.5535451782
+37,Female,High School,15,Data Scientist,Finance,CPA,93358.0809866676
+45,Female,Master's,30,Analyst,Technology,None,111991.114460943
+53,Female,Master's,35,Manager,Healthcare,Google Cloud,138121.951372646
+42,Female,PhD,5,Manager,Manufacturing,PMP,108304.630923891
+32,Male,PhD,4,Data Scientist,Education,AWS,104219.847490656
+57,Female,High School,33,Consultant,Healthcare,AWS,110745.654298253
+40,Male,Master's,19,Data Scientist,Manufacturing,None,108553.362459872
+46,Male,PhD,12,Data Scientist,Education,CPA,113456.224287635
+60,Female,PhD,21,Software Engineer,Finance,Google Cloud,133416.884548811
+47,Male,High School,10,Analyst,Education,AWS,79131.9217264208
+30,Female,Master's,1,Manager,Technology,None,85789.6737977259
+28,Male,Master's,36,Analyst,Healthcare,Google Cloud,113071.155923019
+55,Male,Bachelor's,28,Consultant,Finance,None,116827.618517165
+34,Male,Bachelor's,2,Manager,Finance,AWS,83246.3196718616
+40,Male,Bachelor's,4,Software Engineer,Manufacturing,Google Cloud,74395.4385703775
+60,Female,PhD,3,Data Scientist,Manufacturing,Google Cloud,119684.877751511
+25,Female,PhD,18,Manager,Technology,CPA,121110.482954513
+22,Female,Master's,4,Consultant,Technology,Google Cloud,86875.68236549
+51,Female,Master's,17,Data Scientist,Technology,None,113191.766965234
+51,Female,Master's,23,Data Scientist,Manufacturing,CPA,125352.866510601
+46,Female,High School,13,Manager,Technology,Google Cloud,101993.609436633
+37,Male,Master's,8,Data Scientist,Manufacturing,CPA,97843.1091608732
+45,Female,Bachelor's,29,Manager,Finance,Google Cloud,127213.773258416
+32,Male,High School,28,Data Scientist,Manufacturing,CPA,93684.1823098498
+41,Female,PhD,10,Analyst,Healthcare,None,94590.5691793813
+24,Female,Master's,30,Manager,Education,AWS,122387.143325825
+50,Male,PhD,34,Consultant,Healthcare,None,133360.215520293
+57,Female,PhD,37,Data Scientist,Technology,Google Cloud,145472.779755422
+43,Male,High School,0,Analyst,Finance,AWS,68496.5465127032
+41,Male,PhD,5,Analyst,Healthcare,None,92575.1097099023
+32,Female,Master's,25,Manager,Healthcare,CPA,122588.267447651
+29,Female,Master's,3,Analyst,Finance,CPA,92135.5680025075
+42,Male,High School,17,Analyst,Manufacturing,CPA,74615.9976483938
+23,Male,High School,21,Data Scientist,Finance,Google Cloud,94495.1703453391
+34,Female,PhD,29,Analyst,Technology,AWS,125216.549622029
+27,Male,High School,5,Analyst,Education,PMP,57095.7286053123
+29,Female,PhD,3,Software Engineer,Education,PMP,88861.4813176056
+53,Female,High School,11,Software Engineer,Education,AWS,78395.651428198
+57,Male,Master's,28,Manager,Manufacturing,AWS,136902.333866576
+35,Female,PhD,9,Data Scientist,Education,AWS,110868.277769092
+37,Male,Bachelor's,6,Software Engineer,Technology,CPA,79310.1788508816
+44,Male,High School,6,Software Engineer,Healthcare,AWS,75204.241921328
+54,Female,Bachelor's,39,Consultant,Education,PMP,118828.823668851
+31,Female,High School,38,Consultant,Finance,AWS,110033.196316596
+46,Female,Master's,22,Consultant,Technology,PMP,125043.777208407
+29,Male,High School,39,Software Engineer,Manufacturing,PMP,97317.5212638842
+39,Female,PhD,34,Data Scientist,Education,AWS,140197.727225253
+30,Male,High School,5,Data Scientist,Manufacturing,AWS,80380.3877223344
+28,Male,PhD,40,Data Scientist,Manufacturing,AWS,146421.423178633
+28,Female,Bachelor's,30,Analyst,Finance,None,90441.3321604862
+31,Male,PhD,1,Analyst,Healthcare,None,82627.3956065672
+45,Male,PhD,29,Manager,Technology,None,137627.61776312
+44,Female,Bachelor's,0,Data Scientist,Manufacturing,None,78542.2728739573
+47,Male,PhD,7,Consultant,Technology,CPA,113417.840127059
+54,Male,High School,19,Consultant,Healthcare,PMP,102527.037979715
+50,Female,Master's,40,Consultant,Healthcare,PMP,131934.893004137
+31,Male,PhD,36,Manager,Education,Google Cloud,139050.18478414
+34,Male,Master's,34,Software Engineer,Technology,None,118146.205640289
+32,Female,Master's,40,Analyst,Education,CPA,123434.626016865
+46,Male,High School,0,Consultant,Education,AWS,81933.9932926317
+47,Male,Master's,8,Manager,Healthcare,Google Cloud,111148.27573958
+28,Female,PhD,30,Data Scientist,Technology,AWS,126618.333294932
+46,Female,High School,5,Software Engineer,Education,None,69059.6550625716
+44,Female,Bachelor's,5,Manager,Manufacturing,AWS,89056.328387392
+47,Female,High School,10,Analyst,Technology,None,79417.6413031741
+53,Male,Bachelor's,31,Consultant,Education,AWS,112013.81488926
+41,Female,High School,3,Software Engineer,Manufacturing,AWS,80609.0788607296
+45,Male,PhD,10,Analyst,Technology,Google Cloud,116005.062423672
+30,Male,Master's,11,Software Engineer,Healthcare,PMP,90991.3563611107
+58,Female,Bachelor's,24,Analyst,Healthcare,PMP,102674.926702178
+44,Male,Bachelor's,26,Analyst,Manufacturing,AWS,105527.792602728
+35,Male,PhD,15,Manager,Manufacturing,AWS,125226.503897117
+27,Female,Bachelor's,20,Consultant,Education,None,75301.4054087987
+48,Female,Master's,30,Consultant,Education,CPA,132513.260633523
+22,Female,Master's,17,Analyst,Healthcare,CPA,90335.9196199347
+47,Female,PhD,33,Software Engineer,Technology,PMP,130031.077346598
+38,Male,PhD,17,Consultant,Technology,CPA,119492.164320825
+50,Male,Bachelor's,7,Analyst,Education,AWS,84045.0093493054
+47,Male,Master's,28,Software Engineer,Education,CPA,123950.659337226
+48,Male,Bachelor's,36,Data Scientist,Healthcare,Google Cloud,128307.683678265
+42,Female,Master's,40,Analyst,Finance,None,120593.386366749
+28,Male,High School,34,Manager,Education,AWS,108651.712872947
+47,Male,Master's,37,Analyst,Education,PMP,121208.702833531
+41,Male,High School,36,Analyst,Finance,AWS,106273.010875549
+27,Female,High School,33,Consultant,Healthcare,Google Cloud,100086.937683306
+51,Female,Bachelor's,26,Analyst,Education,AWS,105107.045237933
+52,Male,High School,40,Data Scientist,Technology,PMP,114647.30054429
+50,Female,High School,3,Manager,Healthcare,Google Cloud,96531.1581962974
+38,Male,Bachelor's,29,Software Engineer,Technology,Google Cloud,106471.204971763
+58,Male,PhD,11,Analyst,Technology,None,106548.421879753
+41,Female,High School,0,Software Engineer,Healthcare,CPA,61441.5585317124
+56,Female,Master's,32,Software Engineer,Education,AWS,129315.604171623
+46,Male,PhD,25,Manager,Finance,None,129494.105733874
+54,Male,Bachelor's,31,Analyst,Healthcare,None,104694.047772251
+23,Male,Bachelor's,11,Software Engineer,Healthcare,AWS,82174.6595345491
+25,Female,Master's,10,Manager,Manufacturing,AWS,96595.8207000333
+31,Female,Bachelor's,28,Consultant,Healthcare,AWS,104373.58503827
+54,Male,High School,25,Data Scientist,Manufacturing,AWS,103662.297605303
+26,Female,Master's,11,Manager,Healthcare,Google Cloud,107793.57891088
+46,Female,Master's,27,Analyst,Manufacturing,CPA,121874.884775067
+29,Female,High School,30,Consultant,Manufacturing,PMP,86601.3840580962
+46,Female,PhD,10,Consultant,Finance,Google Cloud,125394.169563157
+42,Male,PhD,14,Data Scientist,Education,PMP,119162.88780775
+39,Female,High School,27,Analyst,Finance,Google Cloud,83135.2523022924
+52,Male,Master's,22,Software Engineer,Technology,PMP,116704.120369382
+27,Female,PhD,4,Analyst,Healthcare,None,89208.0988602628
+28,Male,PhD,26,Manager,Manufacturing,Google Cloud,135288.587334441
+38,Female,High School,20,Analyst,Finance,AWS,81995.4194376696
+49,Male,High School,19,Software Engineer,Education,PMP,87466.3391593663
+28,Male,PhD,17,Software Engineer,Education,None,90537.2435886208
+41,Female,High School,34,Manager,Education,PMP,111932.745733165
+39,Male,Master's,21,Manager,Healthcare,None,118561.453388525
+50,Female,Bachelor's,26,Data Scientist,Manufacturing,CPA,111511.710114032
+38,Male,High School,14,Data Scientist,Healthcare,CPA,89550.5827639334
+54,Female,High School,2,Data Scientist,Finance,Google Cloud,83392.9205781923
+23,Male,Master's,4,Consultant,Healthcare,CPA,91983.7601121186
+23,Female,High School,17,Manager,Finance,None,84279.8115215896
+34,Female,High School,29,Consultant,Education,None,89977.9603353015
+45,Male,PhD,9,Software Engineer,Manufacturing,PMP,105831.132660668
+24,Female,High School,36,Consultant,Finance,CPA,105329.001117999
+39,Female,PhD,2,Consultant,Manufacturing,None,95887.4730180636
+23,Male,PhD,39,Data Scientist,Finance,None,135675.542331756
+58,Male,PhD,10,Manager,Manufacturing,None,122064.777204809
+33,Male,High School,12,Manager,Healthcare,None,88290.4366826853
+34,Male,PhD,18,Consultant,Finance,Google Cloud,125659.064447773
+27,Male,High School,35,Manager,Technology,Google Cloud,110371.182945692
+59,Female,Bachelor's,19,Data Scientist,Manufacturing,None,92942.0187257042
+37,Female,PhD,30,Data Scientist,Technology,None,128021.193744925
+56,Male,Master's,16,Manager,Manufacturing,Google Cloud,113384.233462412
+57,Male,Master's,3,Analyst,Manufacturing,AWS,99818.8169879704
+48,Male,High School,22,Software Engineer,Technology,CPA,90680.02104952
+48,Female,PhD,15,Analyst,Finance,Google Cloud,117489.94144192
+56,Male,PhD,40,Software Engineer,Finance,AWS,155749.378787029
+44,Male,High School,13,Manager,Education,Google Cloud,88234.1823859424
+24,Female,Master's,10,Manager,Healthcare,PMP,101850.563580647
+52,Female,Bachelor's,4,Data Scientist,Manufacturing,Google Cloud,85833.8721396263
+23,Female,PhD,11,Software Engineer,Healthcare,CPA,93507.3710225249
+44,Male,High School,5,Manager,Education,PMP,85470.4728256483
+24,Male,Master's,34,Manager,Technology,AWS,129589.576161951
+30,Male,PhD,14,Data Scientist,Finance,PMP,115427.336841838
+60,Female,Bachelor's,13,Software Engineer,Finance,AWS,101595.504759141
+51,Male,Bachelor's,16,Software Engineer,Finance,CPA,105228.450309971
+52,Female,Master's,6,Consultant,Manufacturing,AWS,106652.390876847
+51,Male,Bachelor's,0,Data Scientist,Manufacturing,CPA,84716.8150399355
+30,Male,PhD,17,Data Scientist,Manufacturing,AWS,116898.511688324
+57,Female,High School,2,Consultant,Technology,AWS,88737.5011259943
+55,Female,High School,8,Data Scientist,Technology,CPA,90375.3963440359
+43,Female,High School,10,Manager,Education,None,82603.8015541634
+49,Male,High School,19,Data Scientist,Education,CPA,92398.7021142166
+50,Female,High School,22,Consultant,Healthcare,CPA,94652.3305554846
+60,Female,Bachelor's,35,Manager,Healthcare,None,125581.651838858
+58,Female,PhD,25,Consultant,Technology,CPA,126429.052359229
+54,Female,High School,34,Software Engineer,Manufacturing,Google Cloud,109098.891965075
+40,Male,Master's,35,Analyst,Technology,None,122072.15740367
+33,Female,High School,10,Consultant,Manufacturing,PMP,76139.9966481782
+55,Female,Master's,24,Manager,Finance,PMP,139815.884348638
+42,Male,PhD,12,Data Scientist,Finance,AWS,120944.077466457
+38,Female,PhD,17,Analyst,Finance,None,99216.0352232872
+33,Female,Bachelor's,7,Software Engineer,Technology,AWS,81940.7034861232
+51,Female,Master's,15,Software Engineer,Technology,CPA,107652.183087576
+56,Female,PhD,14,Consultant,Healthcare,Google Cloud,129858.535714417
+51,Male,High School,30,Consultant,Manufacturing,Google Cloud,108608.576364821
+46,Male,Master's,20,Analyst,Finance,CPA,120430.526400149
+24,Male,Bachelor's,30,Data Scientist,Technology,CPA,105542.207036854
+39,Female,High School,36,Data Scientist,Education,PMP,109620.567798534
+53,Male,Master's,6,Analyst,Technology,Google Cloud,99792.9474037409
+38,Male,Bachelor's,30,Analyst,Education,None,93152.6672447909
+59,Female,Master's,30,Analyst,Manufacturing,Google Cloud,125548.483410697
+53,Female,Master's,36,Software Engineer,Finance,Google Cloud,132321.062468399
+47,Male,Bachelor's,15,Analyst,Technology,None,94852.5671706177
+34,Male,High School,10,Data Scientist,Manufacturing,PMP,77777.1694652668
+41,Male,PhD,8,Consultant,Technology,CPA,110785.108891626
+59,Female,High School,8,Consultant,Education,PMP,81846.8538136516
+41,Female,High School,0,Manager,Finance,CPA,77454.1161919132
+50,Female,Bachelor's,24,Data Scientist,Manufacturing,CPA,96602.0740660693
+41,Male,PhD,26,Software Engineer,Healthcare,Google Cloud,129388.490311969
+51,Female,High School,27,Data Scientist,Technology,CPA,105774.402806946
+29,Female,Bachelor's,37,Data Scientist,Healthcare,AWS,112456.036249821
+60,Female,High School,33,Software Engineer,Manufacturing,None,106976.324485709
+31,Female,Bachelor's,27,Data Scientist,Healthcare,CPA,117213.033324546
+38,Female,PhD,10,Data Scientist,Healthcare,AWS,112850.011832677
+39,Female,Master's,4,Software Engineer,Manufacturing,AWS,90468.0040891738
+32,Female,Master's,23,Analyst,Technology,AWS,111310.859287279
+23,Male,Master's,2,Software Engineer,Manufacturing,PMP,85585.859611009
+40,Male,PhD,4,Software Engineer,Finance,Google Cloud,109178.887731518
+34,Male,High School,28,Analyst,Healthcare,Google Cloud,91660.1501329884
+34,Male,High School,7,Manager,Healthcare,CPA,82483.6873619145
+52,Male,Bachelor's,2,Consultant,Healthcare,AWS,90900.4533075872
+51,Female,High School,13,Consultant,Technology,PMP,92276.3170813087
+43,Male,Bachelor's,14,Consultant,Finance,Google Cloud,98953.773589249
+51,Male,High School,14,Analyst,Education,AWS,82221.6180439216
+31,Male,High School,2,Software Engineer,Finance,AWS,61889.4844821237
+37,Male,High School,17,Data Scientist,Technology,AWS,90436.4996738576
+26,Male,Bachelor's,36,Manager,Finance,Google Cloud,120449.021972153
+57,Male,Bachelor's,12,Analyst,Finance,Google Cloud,105572.909734561
+54,Male,PhD,1,Software Engineer,Finance,AWS,110747.99056351
+37,Male,PhD,37,Manager,Education,AWS,137758.582219414
+49,Female,PhD,5,Software Engineer,Finance,CPA,108837.33527009
+33,Male,Master's,15,Analyst,Healthcare,Google Cloud,96799.4022782993
+49,Male,PhD,0,Manager,Finance,CPA,111075.968473381
+23,Male,Master's,34,Analyst,Technology,CPA,117455.270325143
+33,Male,PhD,31,Data Scientist,Education,None,123687.926033167
+27,Male,Master's,28,Analyst,Technology,None,104732.353563647
+37,Male,High School,18,Data Scientist,Manufacturing,None,72631.6851162294
+36,Male,High School,11,Software Engineer,Manufacturing,Google Cloud,69866.1405795971
+40,Female,Bachelor's,17,Analyst,Manufacturing,None,80274.1657170947
+24,Female,High School,3,Analyst,Healthcare,CPA,66282.1367928448
+54,Male,PhD,20,Software Engineer,Education,CPA,121141.43739252
+54,Male,High School,30,Consultant,Technology,PMP,114727.967898889
+32,Female,High School,13,Software Engineer,Finance,None,77496.1403062442
+57,Male,PhD,7,Data Scientist,Manufacturing,PMP,113605.525566864
+31,Male,Bachelor's,30,Analyst,Technology,AWS,99980.7388207486
+45,Female,High School,18,Analyst,Healthcare,PMP,91287.4038966023
+49,Male,High School,16,Manager,Finance,Google Cloud,107497.604655463
+60,Female,High School,16,Manager,Education,PMP,100878.717763089
+39,Male,High School,33,Analyst,Manufacturing,Google Cloud,97243.0246312179
+38,Female,Master's,39,Software Engineer,Education,CPA,120898.067808249
+41,Male,Bachelor's,34,Manager,Technology,Google Cloud,135827.294768754
+30,Male,Bachelor's,26,Software Engineer,Manufacturing,CPA,98936.5250506568
+32,Female,High School,17,Consultant,Education,AWS,87533.4480645722
+29,Female,PhD,2,Consultant,Healthcare,CPA,92519.9333419527
+26,Male,Bachelor's,23,Manager,Healthcare,PMP,95233.6110546278
+50,Female,PhD,1,Manager,Finance,CPA,127836.439089116
+27,Male,Bachelor's,2,Consultant,Education,CPA,74852.723721641
+31,Female,High School,15,Consultant,Education,CPA,76767.6965917648
+47,Female,Master's,29,Analyst,Education,None,109147.188223372
+30,Male,Master's,20,Data Scientist,Education,Google Cloud,105595.751641067
+32,Female,Bachelor's,8,Data Scientist,Education,CPA,90138.0591428361
+27,Male,PhD,25,Consultant,Finance,None,121045.423958713
+53,Male,Master's,16,Analyst,Finance,None,116931.398584692
+33,Female,Bachelor's,40,Consultant,Education,AWS,109764.947001143
+40,Male,High School,34,Software Engineer,Healthcare,None,94308.826775211
+48,Male,High School,35,Manager,Finance,AWS,124468.926730749
+53,Female,Master's,0,Data Scientist,Education,None,99802.8854690411
+48,Male,PhD,37,Software Engineer,Healthcare,PMP,132910.473370912
+51,Male,Bachelor's,9,Manager,Technology,CPA,104601.696937428
+25,Female,Bachelor's,38,Consultant,Manufacturing,PMP,105529.715219466
+45,Female,PhD,22,Analyst,Technology,AWS,114632.255739608
+49,Female,PhD,25,Software Engineer,Manufacturing,AWS,120130.113940928
+24,Male,Master's,15,Data Scientist,Manufacturing,PMP,90128.6248239066
+27,Male,Master's,29,Analyst,Healthcare,None,92526.5469632908
+57,Male,PhD,20,Consultant,Manufacturing,None,121676.014799025
+51,Male,Master's,35,Analyst,Healthcare,CPA,126314.166321202
+31,Female,Bachelor's,24,Consultant,Education,CPA,102150.557743006
+46,Female,PhD,22,Analyst,Manufacturing,AWS,124282.404090541
+59,Female,High School,11,Software Engineer,Education,AWS,77782.8516662472
+57,Female,Bachelor's,6,Consultant,Manufacturing,Google Cloud,92415.9768439125
+46,Female,High School,20,Consultant,Healthcare,AWS,89453.3719220879
+25,Female,Master's,24,Software Engineer,Education,None,97281.5822638124
+36,Male,PhD,23,Software Engineer,Technology,Google Cloud,127917.566776663
+43,Female,Master's,26,Consultant,Manufacturing,None,111386.094726518
+45,Female,Bachelor's,37,Software Engineer,Technology,CPA,119088.821747876
+60,Female,High School,27,Manager,Technology,Google Cloud,117197.763611404
+58,Male,PhD,17,Manager,Finance,Google Cloud,140234.465279226
+36,Female,High School,13,Analyst,Technology,PMP,81266.7639262508
+37,Male,PhD,37,Analyst,Finance,Google Cloud,141042.22052024
+40,Female,High School,25,Manager,Education,AWS,103969.835703835
+29,Male,PhD,37,Data Scientist,Finance,PMP,143084.562516016
+52,Female,Master's,39,Software Engineer,Technology,Google Cloud,137252.822236335
+58,Male,Bachelor's,28,Manager,Healthcare,Google Cloud,134342.335961171
+60,Male,Master's,22,Data Scientist,Finance,CPA,123990.934466668
+37,Male,High School,6,Consultant,Manufacturing,PMP,72867.9592947841
+30,Male,Master's,3,Analyst,Healthcare,Google Cloud,75930.594484932
+32,Female,PhD,11,Data Scientist,Finance,AWS,117339.662208151
+51,Male,High School,17,Data Scientist,Finance,AWS,88625.3034473034
+31,Female,Bachelor's,25,Consultant,Manufacturing,Google Cloud,99074.293758007
+55,Female,Master's,16,Analyst,Technology,AWS,111893.259303436
+59,Female,PhD,29,Analyst,Finance,CPA,140025.890421542
+41,Female,Bachelor's,32,Manager,Finance,PMP,120525.081825559
+35,Male,PhD,37,Manager,Finance,AWS,144683.269882087
+27,Male,Master's,33,Consultant,Technology,Google Cloud,121741.172666657
+39,Male,High School,32,Analyst,Education,None,85642.2289351903
+23,Female,Master's,23,Analyst,Finance,Google Cloud,107882.062898425
+29,Male,PhD,33,Software Engineer,Finance,PMP,131219.492663596
+32,Male,Master's,20,Software Engineer,Manufacturing,CPA,94869.0712283963
+42,Female,Bachelor's,10,Consultant,Healthcare,CPA,90383.9345592156
+28,Male,Master's,29,Software Engineer,Education,Google Cloud,117200.557927647
+44,Male,Master's,7,Data Scientist,Manufacturing,Google Cloud,98442.0307007329
+29,Female,PhD,28,Consultant,Manufacturing,AWS,118373.081046342
+31,Male,High School,33,Analyst,Technology,Google Cloud,102342.513435177
+58,Female,Master's,13,Consultant,Education,PMP,103775.941165045
+38,Male,High School,3,Software Engineer,Education,Google Cloud,67979.4046873428
+27,Female,PhD,25,Data Scientist,Technology,AWS,121214.488727549
+27,Male,Master's,35,Consultant,Finance,None,109976.001538712
+49,Female,Bachelor's,16,Data Scientist,Manufacturing,PMP,98202.8425541115
+53,Female,PhD,9,Manager,Healthcare,None,118539.04926806
+56,Male,Bachelor's,0,Analyst,Manufacturing,CPA,76640.7632532352
+49,Female,PhD,13,Consultant,Healthcare,AWS,119001.109848806
+41,Male,Master's,4,Manager,Manufacturing,None,95712.6401112688
+22,Male,High School,12,Data Scientist,Healthcare,PMP,76055.3987778962
+26,Male,High School,14,Software Engineer,Finance,Google Cloud,78237.2905423376
+32,Female,PhD,27,Software Engineer,Education,None,108880.099718719
+41,Female,Master's,37,Analyst,Education,CPA,122441.339217484
+23,Male,Bachelor's,19,Software Engineer,Healthcare,PMP,92200.8286477628
+31,Female,PhD,40,Data Scientist,Technology,AWS,140604.044550064
+28,Female,High School,19,Software Engineer,Education,Google Cloud,75780.4778367444
+59,Male,Master's,6,Manager,Finance,AWS,106793.871961814
+57,Female,Bachelor's,31,Consultant,Healthcare,CPA,115085.06825814
+44,Male,Bachelor's,20,Consultant,Technology,PMP,100559.425082072
+55,Male,Bachelor's,31,Consultant,Technology,PMP,126545.005968444
+45,Male,Master's,38,Manager,Healthcare,PMP,138401.403658099
+25,Male,PhD,35,Software Engineer,Finance,PMP,130080.325203316
+50,Female,Bachelor's,29,Data Scientist,Manufacturing,CPA,114237.949751975
+44,Female,Master's,33,Analyst,Healthcare,CPA,116126.894987401
+32,Male,Bachelor's,34,Data Scientist,Technology,Google Cloud,119522.040197872
+54,Male,High School,34,Consultant,Healthcare,AWS,108772.610034348
+24,Male,High School,4,Consultant,Manufacturing,CPA,67365.0781989268
+54,Female,High School,36,Data Scientist,Technology,Google Cloud,115313.877438648
+51,Male,PhD,3,Manager,Education,Google Cloud,120399.863782986
+55,Male,Bachelor's,33,Consultant,Education,CPA,127318.973239972
+23,Male,Master's,17,Manager,Technology,None,96381.7857320828
+41,Female,Master's,37,Analyst,Finance,CPA,121146.077062978
+35,Female,Master's,34,Manager,Healthcare,None,128152.166551427
+46,Male,PhD,28,Manager,Finance,None,146004.278876132
+28,Female,PhD,22,Software Engineer,Education,CPA,109349.987858444
+56,Male,Bachelor's,9,Data Scientist,Healthcare,None,89191.2823040599
+52,Female,Bachelor's,17,Manager,Healthcare,PMP,112447.652176438
+43,Female,High School,1,Manager,Technology,CPA,89206.9954648365
+37,Female,PhD,33,Manager,Education,Google Cloud,136647.952813954
+43,Female,Bachelor's,32,Analyst,Healthcare,AWS,110117.889107819
+50,Male,Master's,7,Consultant,Healthcare,PMP,99954.3585174762
+54,Male,High School,21,Data Scientist,Finance,PMP,107945.38359403
+52,Male,Bachelor's,17,Consultant,Healthcare,CPA,104338.314251735
+29,Female,Master's,35,Analyst,Technology,None,114760.334940598
+45,Male,High School,5,Software Engineer,Manufacturing,PMP,71546.8997800964
+51,Female,Master's,40,Data Scientist,Education,AWS,138658.95198306
+44,Male,Master's,12,Consultant,Technology,PMP,110495.480713179
+58,Female,Master's,13,Data Scientist,Technology,None,107400.606505164
+53,Female,High School,24,Data Scientist,Finance,None,104776.3786213
+38,Male,High School,12,Manager,Healthcare,PMP,79509.8510398717
+47,Female,Master's,38,Manager,Healthcare,CPA,142078.684191839
+44,Male,Bachelor's,35,Data Scientist,Healthcare,PMP,123112.896458298
+47,Female,PhD,8,Software Engineer,Technology,None,105521.581384629
+57,Male,Master's,21,Analyst,Technology,None,113342.958273631
+29,Female,High School,40,Data Scientist,Finance,PMP,113438.326009761
+36,Male,High School,33,Analyst,Finance,Google Cloud,95189.1084326167
+57,Male,PhD,11,Data Scientist,Healthcare,Google Cloud,125229.310347668
+24,Male,PhD,40,Manager,Healthcare,AWS,144398.884394025
+60,Female,PhD,8,Analyst,Technology,Google Cloud,120491.040963674
+54,Female,High School,17,Consultant,Healthcare,Google Cloud,95556.6996693724
+59,Male,High School,30,Software Engineer,Manufacturing,Google Cloud,103879.008360619
+47,Female,High School,8,Consultant,Finance,Google Cloud,85141.7385177809
+49,Male,PhD,39,Manager,Technology,Google Cloud,148716.740165132
+47,Female,Master's,24,Manager,Finance,CPA,128503.848864558
+38,Female,Master's,33,Software Engineer,Finance,AWS,127678.958515326
+44,Female,PhD,33,Manager,Healthcare,None,148483.058937599
+59,Female,PhD,36,Software Engineer,Healthcare,Google Cloud,141680.042963089
+31,Male,Master's,1,Manager,Education,AWS,86524.6924267136
+59,Male,PhD,19,Manager,Finance,PMP,150645.976835811
+29,Male,Master's,37,Data Scientist,Manufacturing,CPA,127224.619385239
+22,Male,Bachelor's,35,Consultant,Manufacturing,PMP,102682.829158411
+37,Female,Master's,19,Software Engineer,Education,AWS,108080.927612682
+23,Female,Master's,19,Data Scientist,Technology,PMP,107907.260164368
+35,Female,High School,39,Data Scientist,Manufacturing,None,101451.351494319
+33,Female,High School,15,Data Scientist,Manufacturing,AWS,88505.3402307894
+47,Female,PhD,1,Data Scientist,Technology,PMP,108149.586057171
+29,Male,Bachelor's,15,Data Scientist,Finance,CPA,98730.2695286812
+29,Female,High School,19,Manager,Healthcare,AWS,99189.516798374
+30,Female,Master's,0,Consultant,Education,None,70480.7099394864
+54,Male,Bachelor's,16,Analyst,Healthcare,PMP,88573.0939554659
+24,Male,High School,8,Analyst,Technology,AWS,74560.488417762
+23,Male,Master's,37,Software Engineer,Manufacturing,AWS,119448.479787394
+22,Female,High School,31,Analyst,Manufacturing,Google Cloud,87533.3748680076
+30,Male,High School,39,Manager,Healthcare,AWS,111803.398645838
+28,Female,Master's,39,Manager,Education,CPA,132559.669460554
+34,Male,PhD,24,Data Scientist,Education,CPA,113707.961684282
+50,Female,PhD,9,Consultant,Education,AWS,111893.255329088
+41,Male,Master's,25,Analyst,Healthcare,None,99974.2543422702
+35,Male,Bachelor's,31,Software Engineer,Education,AWS,116613.351667808
+37,Male,PhD,18,Analyst,Finance,Google Cloud,111959.0984887
+28,Male,High School,39,Consultant,Education,None,91967.8823888877
+57,Male,PhD,10,Analyst,Healthcare,AWS,109130.92619747
+33,Female,Master's,14,Data Scientist,Healthcare,Google Cloud,96635.4944589053
+46,Female,Master's,6,Analyst,Manufacturing,CPA,91389.084501666
+48,Female,Bachelor's,27,Analyst,Technology,AWS,113339.704258056
+34,Male,PhD,2,Data Scientist,Manufacturing,PMP,97266.8141735511
+41,Male,Master's,17,Data Scientist,Manufacturing,PMP,117277.212539971
+31,Female,PhD,17,Software Engineer,Finance,CPA,105574.880235042
+51,Male,PhD,24,Analyst,Technology,PMP,126367.27937066
+33,Female,Master's,17,Analyst,Education,CPA,95708.6700584942
+29,Male,Master's,32,Data Scientist,Finance,CPA,131116.642061371
+28,Male,High School,29,Software Engineer,Finance,AWS,96657.3338747863
+36,Male,Bachelor's,3,Data Scientist,Manufacturing,CPA,75944.2419406091
+40,Female,Master's,9,Consultant,Finance,CPA,105481.246241005
+60,Male,PhD,18,Data Scientist,Finance,Google Cloud,136368.277618283
+44,Female,Master's,37,Software Engineer,Finance,PMP,131190.757844008
+56,Male,Bachelor's,20,Analyst,Manufacturing,PMP,92000.9520227435
+27,Female,Master's,35,Manager,Education,AWS,128624.963512543
+28,Male,High School,7,Manager,Manufacturing,Google Cloud,86791.1842942105
+25,Female,High School,6,Manager,Finance,Google Cloud,81174.8085517762
+31,Male,PhD,32,Consultant,Technology,None,130020.557710448
+38,Male,Master's,33,Data Scientist,Manufacturing,Google Cloud,130993.996394969
+29,Female,Bachelor's,39,Data Scientist,Education,CPA,119268.9119939
+24,Female,Bachelor's,12,Analyst,Education,None,67465.0218564529
+58,Male,High School,34,Consultant,Manufacturing,Google Cloud,100616.488115144
+35,Male,High School,31,Analyst,Education,CPA,96278.0657725322
+49,Male,High School,11,Consultant,Technology,CPA,86929.40062116
+27,Female,PhD,36,Data Scientist,Finance,None,130130.672311658
+30,Male,PhD,3,Analyst,Technology,PMP,93300.6551700552
+54,Female,Master's,24,Software Engineer,Education,AWS,118167.909344304
+40,Female,PhD,26,Analyst,Education,AWS,113798.411458999
+58,Male,High School,11,Data Scientist,Healthcare,None,87366.7275946383
+55,Female,High School,0,Manager,Finance,CPA,87860.1577635973
+22,Female,Master's,24,Analyst,Technology,None,98513.2498706131
+49,Female,Bachelor's,16,Consultant,Education,AWS,90844.1488963128
+51,Male,Master's,15,Analyst,Finance,AWS,104176.285338419
+25,Female,Bachelor's,37,Software Engineer,Technology,CPA,109616.36443398
+47,Female,Master's,36,Consultant,Technology,CPA,131797.963432119
+32,Female,Master's,1,Manager,Education,AWS,92902.7698646108
+26,Female,Master's,6,Data Scientist,Manufacturing,AWS,96898.3179828968
+57,Female,High School,30,Manager,Finance,PMP,118102.75281955
+40,Female,PhD,14,Manager,Education,CPA,118525.798211307
+56,Male,PhD,15,Software Engineer,Manufacturing,None,107024.212272344
+54,Female,Bachelor's,29,Manager,Technology,None,117039.049443001
+60,Male,Master's,38,Data Scientist,Healthcare,Google Cloud,148629.896830631
+26,Male,High School,35,Consultant,Healthcare,PMP,107105.224323173
+44,Male,Master's,31,Software Engineer,Technology,Google Cloud,133068.503200534
+46,Female,Master's,3,Data Scientist,Education,PMP,92580.9480171574
+42,Male,Master's,9,Manager,Education,Google Cloud,113476.12239401
+26,Male,High School,9,Software Engineer,Technology,PMP,64310.1288367259
+33,Male,PhD,0,Analyst,Manufacturing,PMP,83287.7607431989
+23,Male,Master's,28,Manager,Healthcare,AWS,120072.055210669
+39,Male,High School,35,Data Scientist,Technology,PMP,118202.739480932
+25,Female,Master's,39,Data Scientist,Manufacturing,AWS,122837.432361454
+44,Male,PhD,10,Consultant,Healthcare,Google Cloud,120222.149621626
+29,Female,Master's,5,Data Scientist,Finance,CPA,96139.7882732318
+22,Male,PhD,11,Manager,Technology,AWS,113033.958521699
+32,Male,Master's,28,Consultant,Education,None,109085.100106001
+58,Female,High School,0,Software Engineer,Finance,Google Cloud,91104.5220872752
+32,Female,High School,2,Software Engineer,Healthcare,Google Cloud,64082.259709417
+36,Male,Master's,5,Analyst,Manufacturing,CPA,83757.2663636143
+36,Male,High School,27,Consultant,Education,CPA,95582.5173677215
+36,Male,Bachelor's,1,Manager,Manufacturing,PMP,83363.3542012701
+36,Female,Master's,7,Data Scientist,Healthcare,PMP,90851.6269616385
+46,Male,High School,30,Manager,Finance,None,108389.631496407
+57,Female,High School,33,Manager,Healthcare,PMP,121930.412839995
+24,Male,PhD,37,Software Engineer,Manufacturing,Google Cloud,125100.185766048
+28,Female,High School,35,Manager,Manufacturing,AWS,105443.2166587
+25,Female,PhD,6,Consultant,Finance,AWS,97854.0081940711
+58,Female,Master's,25,Manager,Technology,CPA,131732.500472871
+45,Male,Master's,19,Analyst,Technology,CPA,104515.698314291
+59,Female,Master's,15,Consultant,Education,PMP,113999.911078177
+25,Male,PhD,23,Analyst,Education,PMP,105449.878093867
+24,Female,PhD,0,Manager,Manufacturing,None,88346.9025428332
+32,Female,Bachelor's,5,Analyst,Education,PMP,77404.4669771823
+31,Female,PhD,7,Consultant,Finance,PMP,106460.841411174
+50,Female,High School,2,Consultant,Technology,PMP,88915.9133213596
+44,Male,Bachelor's,5,Consultant,Healthcare,CPA,78101.2454576315
+26,Male,PhD,15,Software Engineer,Education,None,103365.369434315
+45,Female,Bachelor's,33,Data Scientist,Education,CPA,117565.561079866
+53,Male,Master's,13,Data Scientist,Finance,Google Cloud,112362.19901122
+46,Male,Master's,5,Consultant,Technology,None,95975.4569328211
+32,Male,Bachelor's,22,Analyst,Technology,PMP,95091.4582688199
+31,Male,Master's,20,Manager,Technology,None,108429.064351346
+36,Male,High School,0,Consultant,Manufacturing,PMP,65164.2839392141
+52,Female,PhD,21,Software Engineer,Education,None,123222.385760651
+31,Male,PhD,3,Manager,Finance,None,106439.475056555
+45,Female,Master's,26,Consultant,Technology,None,110132.955230272
+56,Male,High School,29,Software Engineer,Finance,Google Cloud,106903.826986692
+31,Female,PhD,29,Consultant,Technology,AWS,117485.3086234
+29,Male,Bachelor's,1,Software Engineer,Manufacturing,None,67524.087619469
+53,Male,PhD,19,Software Engineer,Manufacturing,PMP,117862.896383704
+60,Male,PhD,19,Data Scientist,Education,None,125712.464323893
+28,Male,High School,0,Software Engineer,Technology,Google Cloud,67143.1538890377
+59,Female,Bachelor's,31,Software Engineer,Finance,None,113239.913714771
+38,Female,Master's,9,Manager,Education,Google Cloud,105505.622311265
+41,Female,High School,37,Manager,Education,PMP,117270.566417934
+54,Male,High School,13,Manager,Education,Google Cloud,95768.2895950766
+58,Male,High School,0,Consultant,Finance,PMP,84535.6469209233
+31,Female,High School,38,Consultant,Education,Google Cloud,104748.600136963
+31,Male,Master's,10,Data Scientist,Finance,Google Cloud,93710.6049699975
+23,Male,High School,38,Analyst,Manufacturing,None,78688.6643841259
+36,Male,Bachelor's,28,Software Engineer,Healthcare,AWS,99902.9317217313
+44,Male,High School,26,Analyst,Technology,CPA,100457.648088883
+56,Female,Master's,4,Manager,Healthcare,AWS,106948.513327455
+23,Male,Master's,21,Manager,Manufacturing,Google Cloud,107052.520047537
+27,Male,Master's,39,Software Engineer,Technology,Google Cloud,128575.696699912
+30,Male,Master's,31,Analyst,Education,None,105290.259839463
+44,Male,High School,6,Manager,Education,Google Cloud,82477.4519146156
+46,Female,PhD,21,Consultant,Healthcare,Google Cloud,114629.167828548
+36,Male,Bachelor's,35,Analyst,Education,AWS,111124.026727757
+43,Female,High School,32,Manager,Technology,Google Cloud,101930.313177391
+29,Female,Bachelor's,33,Analyst,Technology,PMP,107503.569488802
+50,Male,Bachelor's,0,Manager,Healthcare,CPA,93485.5454669885
+42,Male,PhD,36,Manager,Education,CPA,143919.883938833
+30,Female,Master's,10,Consultant,Finance,Google Cloud,102194.632465105
+55,Female,Bachelor's,39,Manager,Technology,PMP,139444.10942864
+32,Female,High School,40,Software Engineer,Education,AWS,114744.825758127
+25,Male,Master's,12,Consultant,Technology,AWS,100351.487874468
+28,Male,High School,16,Manager,Technology,None,92846.8127173712
+32,Female,Master's,10,Analyst,Finance,CPA,100027.377922907
+54,Male,PhD,9,Data Scientist,Finance,None,116094.650195527
+32,Female,High School,13,Data Scientist,Technology,Google Cloud,82082.0849518033
+59,Female,Bachelor's,11,Analyst,Education,CPA,94185.3630024273
+42,Male,Master's,31,Data Scientist,Education,Google Cloud,131588.103858757
+31,Female,PhD,8,Software Engineer,Healthcare,AWS,100763.22410254
+24,Female,Bachelor's,3,Data Scientist,Healthcare,Google Cloud,79830.0614579863
+56,Male,Master's,26,Analyst,Manufacturing,CPA,113159.978579455
+55,Female,PhD,35,Consultant,Education,AWS,140369.708983293
+49,Male,PhD,40,Analyst,Technology,Google Cloud,139615.645731482
+34,Male,Bachelor's,11,Manager,Finance,Google Cloud,98693.8976640744
+29,Female,PhD,8,Software Engineer,Technology,CPA,104142.548897901
+23,Male,Bachelor's,15,Data Scientist,Manufacturing,CPA,76665.3853878953
+27,Female,Bachelor's,27,Software Engineer,Healthcare,Google Cloud,110853.49679469
+44,Female,Master's,27,Data Scientist,Technology,AWS,125353.235390648
+38,Male,PhD,12,Data Scientist,Technology,CPA,118988.881355012
+53,Male,PhD,6,Consultant,Healthcare,AWS,116637.604053512
+35,Male,Bachelor's,2,Consultant,Healthcare,AWS,83868.4951513287
+28,Male,Bachelor's,22,Analyst,Manufacturing,AWS,90796.6584607716
+34,Female,PhD,11,Software Engineer,Finance,AWS,117602.470477008
+29,Female,Master's,23,Software Engineer,Finance,Google Cloud,108285.511673124
+59,Male,PhD,19,Data Scientist,Technology,PMP,142286.687125476
+32,Male,Master's,15,Software Engineer,Education,None,92138.097362577
+38,Female,Master's,32,Consultant,Manufacturing,PMP,115893.341953632
+28,Female,PhD,0,Analyst,Education,None,87811.3933248999
+40,Male,Bachelor's,36,Consultant,Education,PMP,114983.074809719
+36,Male,Master's,15,Consultant,Manufacturing,None,89589.2244290582
+35,Female,High School,34,Software Engineer,Healthcare,PMP,85782.5110243335
+47,Female,Bachelor's,14,Software Engineer,Education,AWS,94247.9058215996
+48,Female,Bachelor's,24,Software Engineer,Finance,CPA,114896.97501252
+38,Female,Bachelor's,39,Data Scientist,Education,PMP,112285.650240071
+54,Male,PhD,16,Data Scientist,Healthcare,PMP,112070.85829933
+39,Female,Master's,21,Consultant,Technology,PMP,117461.184490238
+41,Female,High School,36,Consultant,Education,Google Cloud,105190.241817115
+48,Female,PhD,29,Data Scientist,Manufacturing,None,119037.568716325
+31,Female,High School,40,Software Engineer,Healthcare,CPA,103439.736882628
+30,Female,PhD,12,Analyst,Technology,PMP,99800.286170881
+52,Male,Master's,36,Data Scientist,Healthcare,None,126143.160483853
+40,Male,High School,0,Consultant,Healthcare,PMP,61720.570012617
+39,Male,Bachelor's,11,Manager,Healthcare,Google Cloud,107185.318284117
+49,Female,High School,30,Software Engineer,Education,None,92263.8930776753
+42,Male,PhD,29,Software Engineer,Technology,Google Cloud,134478.634182447
+50,Male,High School,33,Analyst,Healthcare,Google Cloud,111967.447730627
+57,Female,Master's,4,Consultant,Healthcare,AWS,98140.55279806
+41,Male,High School,2,Software Engineer,Healthcare,AWS,70278.2404479978
+44,Female,High School,4,Analyst,Healthcare,CPA,76053.5894308599
+26,Male,Bachelor's,12,Data Scientist,Finance,PMP,82489.45761299
+23,Female,PhD,14,Manager,Education,None,111373.087643746
+39,Male,Bachelor's,5,Consultant,Finance,PMP,91322.9088509221
+33,Male,Master's,0,Software Engineer,Finance,CPA,82782.8519449554
+34,Female,Master's,9,Software Engineer,Finance,AWS,86992.3624143653
+59,Male,PhD,24,Consultant,Finance,PMP,129890.072035302
+39,Male,Master's,19,Consultant,Manufacturing,None,100483.824377098
+31,Female,PhD,17,Software Engineer,Finance,AWS,115246.861865297
+30,Female,Master's,14,Consultant,Manufacturing,AWS,86198.5527383265
+56,Male,Master's,25,Consultant,Education,PMP,129530.956509353
+50,Female,Bachelor's,38,Data Scientist,Technology,AWS,129750.034786191
+43,Male,High School,2,Data Scientist,Manufacturing,CPA,66540.7785957847
+40,Female,PhD,23,Software Engineer,Manufacturing,PMP,111393.247277487
+29,Male,PhD,18,Data Scientist,Education,AWS,118636.492146314
+54,Male,PhD,36,Analyst,Manufacturing,PMP,131682.333929087
+23,Male,PhD,18,Consultant,Healthcare,Google Cloud,119606.902735249
+26,Male,Bachelor's,6,Data Scientist,Finance,Google Cloud,83004.3476841948
+42,Female,PhD,27,Consultant,Manufacturing,AWS,129288.731974943
+52,Male,Master's,15,Data Scientist,Manufacturing,CPA,116417.188555182
+57,Male,Master's,4,Data Scientist,Healthcare,AWS,102441.133523987
+48,Female,Bachelor's,23,Data Scientist,Healthcare,PMP,110746.808010949
+44,Male,PhD,32,Software Engineer,Technology,None,124405.718060375
+24,Male,Bachelor's,35,Analyst,Manufacturing,CPA,106480.21092109
+36,Female,Bachelor's,26,Consultant,Technology,PMP,108616.335709334
+60,Female,Bachelor's,19,Manager,Education,Google Cloud,118787.490377259
+28,Female,Bachelor's,8,Manager,Healthcare,AWS,92816.3478411905
+55,Female,Master's,4,Analyst,Education,Google Cloud,91111.7823841679
+52,Female,Master's,6,Analyst,Manufacturing,None,89928.6613399886
+39,Female,Bachelor's,32,Data Scientist,Education,Google Cloud,123406.525484229
+39,Female,Master's,1,Software Engineer,Education,Google Cloud,87013.7979598038
+56,Male,High School,0,Software Engineer,Education,AWS,80850.5423525689
+30,Female,PhD,30,Analyst,Healthcare,CPA,116040.76806667
+36,Male,High School,3,Data Scientist,Finance,Google Cloud,70291.41932599
+38,Male,PhD,35,Consultant,Education,Google Cloud,131150.951302035
+28,Male,Master's,33,Data Scientist,Education,AWS,109510.849596253
+51,Female,Bachelor's,15,Manager,Finance,Google Cloud,111072.624582185
+29,Female,High School,15,Analyst,Healthcare,CPA,70636.2368615952
+22,Female,PhD,39,Software Engineer,Education,AWS,125428.095993939
+30,Female,Master's,34,Analyst,Education,CPA,105606.004769058
+56,Male,Bachelor's,19,Software Engineer,Healthcare,AWS,113829.699412571
+46,Female,PhD,16,Software Engineer,Technology,None,111535.015153379
+23,Male,Master's,15,Data Scientist,Manufacturing,PMP,92372.0081163555
+32,Female,High School,33,Software Engineer,Finance,None,94809.6430941346
+25,Female,Bachelor's,7,Data Scientist,Healthcare,CPA,89919.8846033879
+41,Male,Bachelor's,4,Manager,Education,PMP,92195.4828398254
+32,Female,Master's,11,Data Scientist,Finance,PMP,105403.451475823
+39,Female,Bachelor's,30,Manager,Manufacturing,AWS,108041.919074987
+35,Male,PhD,22,Data Scientist,Education,CPA,121304.447469454
+24,Male,Master's,1,Software Engineer,Technology,AWS,77156.0350989955
+49,Female,Master's,14,Consultant,Education,PMP,113575.827322493
+24,Female,Master's,36,Data Scientist,Finance,AWS,131413.517032349
+49,Female,Bachelor's,40,Analyst,Finance,None,119704.567543857
+50,Female,PhD,14,Data Scientist,Technology,AWS,127871.557086943
+60,Female,Master's,38,Manager,Manufacturing,None,132519.727170595
+44,Female,Bachelor's,40,Consultant,Finance,PMP,122308.783750839
+36,Male,PhD,23,Data Scientist,Education,None,123889.489527127
+44,Female,Master's,8,Analyst,Manufacturing,CPA,85691.0207631753
+45,Female,Master's,10,Data Scientist,Technology,CPA,108720.149444071
+54,Male,PhD,9,Manager,Healthcare,None,115380.475005737
+58,Male,High School,38,Data Scientist,Education,CPA,117830.394757571
+50,Female,PhD,27,Analyst,Education,PMP,128075.516568935
+27,Female,High School,16,Manager,Manufacturing,AWS,87610.2426757747
+46,Female,PhD,36,Analyst,Technology,PMP,144839.529925433
+47,Female,Bachelor's,34,Software Engineer,Manufacturing,CPA,116869.920746429
+45,Male,Bachelor's,17,Software Engineer,Finance,None,95294.6750945855
+53,Male,Master's,13,Consultant,Education,CPA,96276.1153370725
+29,Male,PhD,6,Analyst,Manufacturing,None,86105.0041694199
+37,Male,PhD,30,Consultant,Manufacturing,None,124119.913593361
+60,Male,Bachelor's,2,Data Scientist,Healthcare,PMP,92490.17290933
+53,Female,PhD,33,Analyst,Technology,CPA,143512.994310224
+60,Female,PhD,24,Consultant,Healthcare,CPA,136471.921593427
+22,Female,PhD,10,Data Scientist,Finance,PMP,106531.062439379
+51,Female,Bachelor's,15,Data Scientist,Education,None,90414.3295107364
+46,Female,Bachelor's,34,Software Engineer,Manufacturing,Google Cloud,104457.276957169
+24,Female,Bachelor's,35,Consultant,Healthcare,PMP,100465.412492692
+43,Female,Bachelor's,6,Software Engineer,Finance,Google Cloud,97564.4973384684
+38,Female,Bachelor's,9,Software Engineer,Finance,AWS,95569.2151348471
+41,Female,Master's,19,Software Engineer,Education,None,102805.318325498
+56,Female,Master's,16,Manager,Finance,AWS,123547.00452844
+35,Male,High School,20,Software Engineer,Finance,None,85409.9953742061
+58,Female,PhD,13,Software Engineer,Manufacturing,PMP,113792.886527278
+45,Male,High School,2,Data Scientist,Technology,Google Cloud,88355.4217009172
+51,Male,High School,13,Analyst,Finance,PMP,91951.5581614065
+29,Male,Master's,31,Data Scientist,Manufacturing,Google Cloud,116461.816677291
+41,Female,High School,36,Manager,Technology,None,103917.873174577
+31,Male,Master's,29,Manager,Manufacturing,Google Cloud,136920.788727733
+43,Female,High School,34,Analyst,Healthcare,None,96187.7743610249
+38,Male,High School,13,Analyst,Manufacturing,CPA,76556.8719930083
+30,Male,High School,16,Data Scientist,Education,CPA,80235.1339867507
+56,Male,High School,10,Analyst,Education,PMP,83280.8818250623
+58,Female,Bachelor's,0,Consultant,Finance,None,90534.6737875347
+42,Female,PhD,8,Consultant,Education,None,105308.984280593
+37,Male,Bachelor's,26,Manager,Manufacturing,CPA,110408.551381213
+47,Male,Bachelor's,2,Analyst,Finance,AWS,80235.6400130732
+56,Male,Bachelor's,21,Software Engineer,Technology,PMP,97741.2529790023
+56,Male,PhD,40,Manager,Manufacturing,AWS,156563.752396772
+47,Female,High School,29,Data Scientist,Finance,PMP,102883.200404293
+34,Male,Master's,8,Consultant,Healthcare,AWS,102510.680648474
+57,Female,Master's,14,Consultant,Finance,CPA,113271.083402309
+46,Female,Master's,34,Software Engineer,Technology,Google Cloud,121181.772229196
+49,Male,Bachelor's,7,Data Scientist,Healthcare,AWS,95379.6037352757
+50,Male,PhD,0,Software Engineer,Education,PMP,102947.315102349
+34,Male,PhD,25,Data Scientist,Manufacturing,CPA,126161.400210477
+42,Male,Master's,0,Manager,Healthcare,AWS,102040.570503829
+46,Male,Bachelor's,38,Consultant,Healthcare,CPA,122748.137277013
+50,Female,PhD,28,Software Engineer,Education,CPA,128196.057832313
+41,Male,High School,21,Analyst,Finance,PMP,87599.9962462817
+50,Female,High School,22,Manager,Finance,CPA,117739.042124481
+34,Male,Bachelor's,30,Software Engineer,Education,AWS,103025.019189591
+34,Male,Bachelor's,10,Data Scientist,Healthcare,Google Cloud,89837.7908243828
+56,Female,Bachelor's,29,Software Engineer,Education,CPA,113896.481733554
+26,Female,High School,36,Consultant,Healthcare,Google Cloud,97110.9850994492
+34,Male,Master's,30,Manager,Education,AWS,120423.501841371
+44,Male,PhD,29,Data Scientist,Finance,Google Cloud,143017.618546512
+49,Female,High School,23,Analyst,Technology,AWS,89134.8667664815
+29,Male,Master's,25,Data Scientist,Manufacturing,PMP,103018.517057884
+59,Female,High School,25,Consultant,Technology,AWS,112408.154642388
+45,Male,PhD,39,Analyst,Finance,AWS,147740.821308555
+37,Male,High School,2,Consultant,Manufacturing,CPA,61057.4659093053
+32,Female,Master's,19,Analyst,Technology,PMP,104306.368873386
+44,Male,PhD,39,Consultant,Finance,None,142958.413115629
+51,Male,Bachelor's,20,Analyst,Healthcare,None,94357.5703894334
+53,Female,PhD,13,Analyst,Education,None,105283.374268638
+48,Male,High School,15,Data Scientist,Technology,Google Cloud,94155.210829853
+36,Female,PhD,26,Data Scientist,Education,CPA,134274.493312904
+22,Male,Master's,15,Data Scientist,Healthcare,CPA,103759.192746652
+31,Female,Master's,34,Data Scientist,Manufacturing,None,117403.358618513
+43,Female,PhD,13,Data Scientist,Education,None,109355.065454308
+57,Female,Bachelor's,25,Consultant,Manufacturing,Google Cloud,117223.699717278
+46,Male,PhD,16,Consultant,Healthcare,AWS,124678.068502135
+51,Female,Bachelor's,30,Data Scientist,Healthcare,PMP,120463.250945334
+58,Female,Master's,16,Consultant,Finance,CPA,115701.971874324
+48,Female,PhD,19,Analyst,Education,None,107344.091964694
+30,Male,PhD,1,Data Scientist,Finance,AWS,94815.1191887598
+40,Female,Master's,15,Analyst,Manufacturing,None,84430.011469916
+56,Male,High School,13,Consultant,Technology,Google Cloud,109356.629836505
+55,Female,Bachelor's,36,Analyst,Technology,CPA,121554.7335297
+44,Male,High School,31,Software Engineer,Technology,AWS,102420.171468731
+33,Male,High School,40,Data Scientist,Education,None,103058.442203322
+36,Male,Master's,23,Consultant,Manufacturing,CPA,100797.367854272
+56,Female,PhD,28,Manager,Healthcare,None,133351.180054745
+50,Female,High School,20,Data Scientist,Education,AWS,107965.627608331
+28,Female,Bachelor's,26,Analyst,Finance,AWS,100716.200393062
+50,Male,Bachelor's,28,Software Engineer,Technology,CPA,113711.940190004
+55,Female,Master's,26,Software Engineer,Education,AWS,126464.452394594
+30,Female,Bachelor's,27,Consultant,Finance,AWS,99655.167485481
+22,Male,Master's,9,Data Scientist,Manufacturing,PMP,93396.3515646898
+31,Female,Master's,28,Manager,Technology,Google Cloud,127258.594345289
+60,Female,PhD,17,Data Scientist,Education,Google Cloud,123279.996680904
+44,Female,PhD,33,Data Scientist,Education,None,125095.034241592
+27,Female,PhD,3,Data Scientist,Technology,CPA,95115.5618602755
+53,Female,Bachelor's,40,Software Engineer,Technology,AWS,124894.683313962
+60,Male,Master's,1,Manager,Education,PMP,109390.30303078
+37,Male,PhD,3,Software Engineer,Technology,PMP,101122.159560444
+47,Male,Master's,11,Consultant,Technology,CPA,98531.0474670329
+37,Female,PhD,28,Analyst,Healthcare,PMP,128346.232939008
+23,Male,Bachelor's,10,Software Engineer,Technology,None,73528.8645441074
+55,Male,PhD,38,Consultant,Manufacturing,PMP,139771.09982256
+35,Female,Bachelor's,26,Software Engineer,Healthcare,CPA,99601.5458186557
+51,Female,Master's,29,Consultant,Healthcare,Google Cloud,135151.470520281
+49,Female,PhD,3,Manager,Healthcare,CPA,115953.317548036
+42,Male,Master's,9,Manager,Finance,CPA,103769.780168817
+44,Female,Bachelor's,22,Data Scientist,Manufacturing,Google Cloud,106897.697910839
+51,Female,High School,1,Software Engineer,Technology,Google Cloud,92210.0800307679
+46,Male,High School,31,Data Scientist,Healthcare,Google Cloud,115388.649698459
+60,Male,Master's,5,Manager,Healthcare,Google Cloud,112754.925979762
+27,Male,Master's,16,Analyst,Finance,CPA,95101.0413111098
+25,Female,PhD,39,Data Scientist,Healthcare,Google Cloud,138102.518671801
+24,Male,High School,23,Software Engineer,Technology,Google Cloud,86740.1294770869
+31,Female,PhD,38,Analyst,Education,PMP,124663.872574663
+49,Male,Bachelor's,13,Data Scientist,Manufacturing,Google Cloud,89610.0308349201
+33,Male,PhD,10,Analyst,Technology,PMP,106423.106293566
+24,Male,Bachelor's,25,Consultant,Technology,CPA,100674.484976099
+22,Female,PhD,23,Analyst,Technology,None,108096.752860154
+54,Male,Master's,18,Consultant,Technology,None,110802.702730663
+57,Female,Bachelor's,13,Consultant,Education,None,96271.9947872621
+34,Male,Master's,9,Consultant,Education,AWS,97764.6148475296
+36,Male,High School,32,Consultant,Healthcare,CPA,100236.891788816
+34,Male,Bachelor's,22,Analyst,Healthcare,None,88333.829824008
+51,Male,PhD,30,Manager,Finance,PMP,152155.765315421
+39,Female,PhD,21,Data Scientist,Finance,Google Cloud,127255.966088179
+60,Male,Bachelor's,22,Software Engineer,Education,None,111502.186867948
+47,Female,PhD,28,Analyst,Manufacturing,CPA,128639.04217675
+57,Female,High School,29,Software Engineer,Education,AWS,102560.598238574
+57,Female,Master's,16,Software Engineer,Technology,AWS,123909.860360244
+24,Female,Bachelor's,8,Manager,Technology,PMP,94904.8834428526
+46,Female,Master's,38,Data Scientist,Healthcare,PMP,141883.605654283
+32,Male,Master's,3,Consultant,Manufacturing,Google Cloud,86338.8606142961
+51,Male,PhD,6,Analyst,Healthcare,PMP,108332.168890543
+37,Male,High School,1,Software Engineer,Manufacturing,Google Cloud,66137.5995242949
+32,Male,PhD,25,Data Scientist,Manufacturing,Google Cloud,120363.774698228
+59,Female,Bachelor's,19,Manager,Technology,AWS,124311.152093219
+53,Male,Bachelor's,15,Analyst,Finance,CPA,96418.4969506464
+52,Male,High School,31,Software Engineer,Technology,AWS,110835.486409341
+58,Male,High School,38,Analyst,Manufacturing,AWS,104063.230623874
+23,Female,Bachelor's,33,Consultant,Technology,None,99449.3359616347
+43,Male,PhD,12,Data Scientist,Finance,None,121404.411275537
+38,Female,Master's,38,Data Scientist,Finance,PMP,123606.939822982
+26,Male,Master's,35,Manager,Healthcare,AWS,125651.32140412
+36,Male,Master's,34,Consultant,Finance,None,114934.593725961
+53,Female,PhD,23,Software Engineer,Manufacturing,Google Cloud,124795.789639058
+56,Female,Bachelor's,3,Analyst,Healthcare,Google Cloud,83987.2032604987
+48,Male,Bachelor's,26,Analyst,Finance,AWS,113012.920856404
+43,Male,Master's,15,Software Engineer,Education,Google Cloud,104853.788524906
+46,Male,PhD,7,Software Engineer,Manufacturing,PMP,98835.0078555549
+36,Male,High School,2,Analyst,Healthcare,CPA,69537.1336120137
+56,Female,Master's,16,Consultant,Healthcare,None,106918.696230913
+51,Male,High School,20,Analyst,Healthcare,Google Cloud,87017.4342928324
+55,Male,Master's,29,Consultant,Technology,Google Cloud,132246.644934285
+26,Male,Master's,9,Manager,Finance,AWS,98730.5582324583
+26,Female,Master's,36,Analyst,Healthcare,None,106677.967727219
+28,Male,PhD,33,Software Engineer,Healthcare,AWS,124999.785074551
+23,Female,PhD,9,Manager,Healthcare,CPA,101311.169956475
+37,Female,Bachelor's,3,Software Engineer,Healthcare,AWS,82361.6319380648
+44,Female,PhD,23,Data Scientist,Education,None,120157.48194219
+44,Female,High School,19,Data Scientist,Healthcare,AWS,95136.3954400212
+45,Female,PhD,1,Software Engineer,Finance,None,106507.439390022
+42,Male,High School,35,Software Engineer,Finance,AWS,114234.67809019
+39,Female,PhD,32,Analyst,Technology,AWS,120913.982350968
+40,Male,Master's,13,Manager,Finance,None,99766.2838765988
+30,Female,High School,22,Manager,Manufacturing,AWS,84331.6461457867
+40,Male,Bachelor's,5,Software Engineer,Healthcare,Google Cloud,84373.8027245728
+40,Female,PhD,22,Analyst,Healthcare,AWS,118678.855586257
+26,Male,Bachelor's,1,Manager,Healthcare,PMP,76509.5343455808
+37,Female,Master's,35,Analyst,Healthcare,None,106767.052265202
+60,Female,Bachelor's,31,Consultant,Finance,PMP,124446.562903558
+53,Female,High School,16,Manager,Education,Google Cloud,100893.665396362
+36,Male,High School,26,Manager,Technology,CPA,90848.9597755824
+47,Male,PhD,20,Analyst,Education,CPA,121262.521083313
+41,Male,Bachelor's,22,Software Engineer,Finance,Google Cloud,115636.677264046
+56,Female,Master's,15,Software Engineer,Technology,None,108737.489374461
+52,Male,High School,7,Consultant,Education,CPA,68659.3594888889
+45,Male,High School,1,Software Engineer,Manufacturing,PMP,66574.6767931694
+38,Male,High School,16,Software Engineer,Technology,Google Cloud,83937.2290780151
+28,Female,PhD,34,Analyst,Healthcare,AWS,118806.941853193
+34,Male,PhD,1,Data Scientist,Manufacturing,AWS,105620.589378592
+56,Male,High School,32,Software Engineer,Education,None,92400.4006242102
+34,Male,PhD,9,Consultant,Education,CPA,101996.305835079
+35,Male,High School,18,Manager,Finance,Google Cloud,102670.145884383
+25,Male,High School,29,Data Scientist,Manufacturing,None,75781.0743424014
+46,Female,Master's,26,Software Engineer,Education,PMP,112830.14935728
+50,Male,High School,32,Software Engineer,Healthcare,Google Cloud,105775.038636894
+37,Female,Bachelor's,17,Consultant,Education,PMP,88858.1019377443
+30,Male,PhD,3,Consultant,Education,PMP,94652.3705508557
+58,Female,Master's,22,Manager,Technology,Google Cloud,136259.9331911
+43,Female,Master's,1,Data Scientist,Manufacturing,PMP,90195.5798789065
+43,Female,Master's,31,Consultant,Finance,AWS,127749.717133598
+45,Male,PhD,31,Analyst,Healthcare,Google Cloud,131584.787891195
+35,Male,Bachelor's,0,Analyst,Manufacturing,PMP,73793.1449117059
+51,Female,PhD,31,Consultant,Finance,None,136254.910021197
+52,Female,Bachelor's,0,Software Engineer,Finance,AWS,82766.7355480184
+60,Female,High School,39,Consultant,Manufacturing,AWS,128600.966615805
+58,Female,Master's,18,Data Scientist,Technology,PMP,122807.464833653
+29,Male,Bachelor's,39,Software Engineer,Education,None,107483.27502021
+35,Female,High School,27,Analyst,Technology,AWS,93425.3440148506
+22,Female,High School,29,Software Engineer,Healthcare,AWS,91532.1249090269
+44,Female,Master's,22,Data Scientist,Healthcare,AWS,113864.045775969
+47,Female,PhD,32,Manager,Education,CPA,135404.648715974
+44,Female,Bachelor's,9,Data Scientist,Technology,None,96165.2758358325
+52,Female,Bachelor's,6,Analyst,Technology,None,80461.7738358406
+42,Female,High School,37,Data Scientist,Manufacturing,AWS,109332.413286879
+38,Female,High School,22,Consultant,Technology,None,92831.8766645597
+60,Male,Master's,21,Data Scientist,Finance,AWS,124871.904999096
+28,Female,Master's,9,Software Engineer,Technology,AWS,97126.559044959
+33,Female,High School,29,Manager,Education,Google Cloud,100746.578025971
+53,Female,Bachelor's,20,Software Engineer,Finance,None,99636.9040522534
+40,Male,PhD,35,Data Scientist,Technology,Google Cloud,138842.47280676
+40,Female,PhD,10,Manager,Manufacturing,CPA,121395.150943496
+46,Female,High School,11,Data Scientist,Manufacturing,AWS,91582.4917663789
+38,Male,PhD,5,Manager,Finance,None,116907.080721652
+30,Male,Bachelor's,4,Manager,Healthcare,PMP,88920.8320423714
+44,Male,PhD,15,Consultant,Education,None,98989.4737758838
+52,Male,High School,8,Software Engineer,Healthcare,None,78901.2831759285
+59,Female,Master's,27,Analyst,Healthcare,None,125176.223645612
+54,Female,Master's,0,Analyst,Finance,Google Cloud,98864.873566687
+37,Female,PhD,16,Manager,Finance,None,110925.592213686
+29,Male,PhD,25,Software Engineer,Finance,PMP,126359.917705399
+26,Male,Bachelor's,19,Consultant,Manufacturing,PMP,91183.7478473111
+31,Female,Bachelor's,37,Data Scientist,Education,CPA,110668.056406047
+49,Male,Master's,10,Software Engineer,Healthcare,Google Cloud,97857.3027893649
+58,Female,High School,10,Software Engineer,Finance,Google Cloud,91544.8086951696
+40,Female,Bachelor's,19,Software Engineer,Healthcare,None,93505.3173974546
+54,Female,Bachelor's,38,Manager,Finance,None,123980.174637517
+37,Female,Bachelor's,13,Data Scientist,Education,CPA,91366.942894208
+27,Male,High School,21,Consultant,Finance,AWS,93499.3300450714
+29,Male,Bachelor's,23,Analyst,Healthcare,None,82000.2162513659
+46,Female,High School,21,Data Scientist,Education,CPA,98818.0145824693
+35,Male,Master's,5,Software Engineer,Manufacturing,None,82768.0908014411
+52,Male,Master's,24,Consultant,Healthcare,Google Cloud,125016.450207293
+46,Female,PhD,23,Software Engineer,Healthcare,PMP,123733.204818399
+29,Male,Master's,25,Analyst,Technology,CPA,97847.9439037059
+45,Male,Bachelor's,1,Data Scientist,Healthcare,None,88496.7067197775
+26,Female,Bachelor's,19,Data Scientist,Finance,PMP,97719.333939152
+35,Male,PhD,12,Software Engineer,Finance,CPA,121904.249275711
+54,Female,Master's,11,Consultant,Education,None,98875.0291001037
+22,Male,Master's,33,Manager,Finance,Google Cloud,127077.809950016
+58,Female,PhD,22,Manager,Finance,PMP,147886.03947126
+56,Female,PhD,21,Consultant,Finance,PMP,141072.663933795
+25,Male,PhD,5,Software Engineer,Finance,Google Cloud,98104.4974471566
+56,Male,High School,15,Software Engineer,Technology,Google Cloud,93176.5436954778
+39,Female,Bachelor's,24,Manager,Healthcare,PMP,108438.586692447
+31,Male,PhD,25,Manager,Manufacturing,PMP,128433.906088704
+33,Male,PhD,14,Analyst,Education,CPA,106312.250549265
+24,Male,Bachelor's,40,Analyst,Manufacturing,Google Cloud,103404.959455009
+47,Male,Master's,33,Consultant,Technology,Google Cloud,126458.29407078
+33,Female,Bachelor's,14,Consultant,Finance,AWS,97246.1561089542
+58,Male,High School,7,Data Scientist,Healthcare,Google Cloud,90688.5474820739
+29,Female,Master's,4,Data Scientist,Manufacturing,None,87190.6030100906
+38,Male,Bachelor's,38,Consultant,Finance,CPA,114961.368325209
+26,Male,PhD,17,Data Scientist,Education,PMP,112652.930484941
+40,Male,PhD,29,Analyst,Technology,PMP,129929.384961856
+59,Male,High School,16,Consultant,Technology,None,94711.0898041712
+53,Male,High School,31,Manager,Healthcare,PMP,109615.304696088
+23,Female,Bachelor's,19,Analyst,Education,CPA,77098.7383537083
+38,Male,Bachelor's,13,Analyst,Healthcare,PMP,91162.5650150011
+29,Female,High School,19,Software Engineer,Finance,CPA,95739.7234651356
+39,Female,High School,1,Data Scientist,Healthcare,None,61488.6915709873
+47,Male,Master's,37,Manager,Education,Google Cloud,140479.416443683
+51,Female,Master's,27,Consultant,Technology,AWS,121331.116492871
+40,Female,High School,22,Consultant,Technology,CPA,90631.8105043711
+26,Female,Bachelor's,28,Consultant,Education,None,97881.3204435722
+50,Female,Master's,6,Software Engineer,Technology,Google Cloud,97843.8429211416
+50,Female,Bachelor's,22,Data Scientist,Healthcare,None,98721.2487508405
+33,Female,Master's,38,Analyst,Finance,None,122457.142662095
+22,Male,High School,6,Manager,Finance,None,70602.9183896112
+51,Male,PhD,18,Manager,Finance,Google Cloud,136262.845757887
+28,Female,Bachelor's,21,Consultant,Technology,None,91925.8730103215
+26,Female,Master's,30,Analyst,Manufacturing,Google Cloud,103814.880466453
+31,Female,Master's,29,Manager,Manufacturing,PMP,121587.331502949
+57,Female,PhD,21,Software Engineer,Finance,CPA,131268.310394639
+29,Female,Bachelor's,27,Software Engineer,Healthcare,None,93373.7699863318
+52,Male,Master's,0,Manager,Finance,Google Cloud,114109.640684767
+26,Male,Bachelor's,27,Manager,Healthcare,CPA,108751.718213038
+60,Male,Master's,0,Software Engineer,Healthcare,CPA,100204.098250593
+43,Female,Bachelor's,36,Software Engineer,Healthcare,None,102448.084437838
+33,Male,PhD,16,Data Scientist,Healthcare,CPA,115147.869824921
+31,Female,PhD,0,Software Engineer,Education,None,83892.3122159356
+50,Male,High School,18,Analyst,Manufacturing,AWS,88144.4032883834
+51,Female,High School,1,Software Engineer,Technology,AWS,78236.6847394103
+22,Female,Master's,31,Software Engineer,Manufacturing,None,101445.810841554
+35,Male,Master's,0,Software Engineer,Technology,PMP,85955.8786618358
+28,Female,PhD,30,Software Engineer,Technology,CPA,115325.085300922
+55,Female,Bachelor's,8,Manager,Finance,CPA,111344.432725327
+31,Female,Bachelor's,1,Consultant,Technology,PMP,76904.7960744766
+36,Male,Bachelor's,1,Data Scientist,Manufacturing,AWS,78585.2550186594
+40,Female,PhD,25,Data Scientist,Finance,None,121750.335877314
+39,Female,Bachelor's,19,Data Scientist,Manufacturing,PMP,98942.629560925
+43,Male,Bachelor's,19,Software Engineer,Finance,None,103351.992922999
+39,Male,High School,8,Consultant,Healthcare,None,71796.9204051637
+24,Female,PhD,11,Manager,Manufacturing,None,103802.62575856
+58,Female,High School,34,Software Engineer,Healthcare,AWS,104814.997098759
+39,Male,Master's,37,Data Scientist,Education,PMP,121864.244293237
+22,Male,PhD,27,Data Scientist,Healthcare,Google Cloud,120323.251474705
+60,Female,Master's,29,Manager,Education,PMP,138641.102617612

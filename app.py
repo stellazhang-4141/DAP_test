@@ -10,7 +10,7 @@ app = Flask(__name__)
 try:
     df = pd.read_csv("employees_dataset.csv")
 except FileNotFoundError:
-    print("❌ 未找到数据集文件，请确保 'employees_dataset.csv' 文件存在。")
+    print(" 未找到数据集文件，请确保 'employees_dataset.csv' 文件存在。")
     df = None
 
 # 2. Prepare features and target
@@ -33,7 +33,7 @@ if df is not None:
     model = LinearRegression()
     model.fit(train_features, train_target)
 
-    print("✅ Linear Regression model trained successfully!")
+    print(" Linear Regression model trained successfully!")
 
     model_coefficients = model.coef_
     model_intercept = model.intercept_
@@ -65,16 +65,16 @@ def call_gemini(api_key, prompt):
         if response.status_code == 200:
             return response.json()['candidates'][0]['content']['parts'][0]['text']
         else:
-            print(f"❌ Gemini API call failed: {response.status_code}")
+            print(f" Gemini API call failed: {response.status_code}")
             print(response.text)
             return None
     except Exception as e:
-        print(f"❌ Gemini call error: {e}")
+        print(f" Gemini call error: {e}")
         return None
 
 def call_gpt(api_key, prompt):
     if not api_key or not api_key.startswith("sk-"):
-        print("❌ GPT API Key seems invalid. Please check your key.")
+        print(" GPT API Key seems invalid. Please check your key.")
         return None
 
     client = openai.OpenAI(api_key=api_key)
@@ -94,7 +94,7 @@ def call_gpt(api_key, prompt):
         print(f"GPT API 响应内容: {response}")  # 添加这行打印响应信息
         return response.choices[0].message.content
     except Exception as e:
-        print(f"❌ GPT API call failed: {e}")
+        print(f" GPT API call failed: {e}")
         return None
 
 @app.route('/', methods=['GET', 'POST'])
@@ -103,10 +103,10 @@ def index():
         try:
             row_index = int(request.form['row_index'])
             if df is None:
-                error_message = "❌ 未找到数据集文件，请检查文件是否存在。"
+                error_message = " 未找到数据集文件，请检查文件是否存在。"
                 return render_template('index.html', error_message=error_message)
             if row_index < 100 or row_index >= len(df):
-                error_message = f"⚠️ 请输入一个 >= 100 且 < {len(df)} 的数字。"
+                error_message = f" 请输入一个 >= 100 且 < {len(df)} 的数字。"
                 return render_template('index.html', error_message=error_message)
 
             selected_features = features.iloc[[row_index]]
@@ -176,10 +176,10 @@ Be detailed and logical in your review.
                                    row_index=row_index,
                                    conversation=conversation)
         except ValueError:
-            error_message = "❌ 输入无效，请输入一个有效的数字。"
+            error_message = " 输入无效，请输入一个有效的数字。"
             return render_template('index.html', error_message=error_message)
         except Exception as e:
-            error_message = f"❌ 发生错误: {e}"
+            error_message = f" 发生错误: {e}"
             return render_template('index.html', error_message=error_message)
 
     return render_template('index.html', error_message=None)

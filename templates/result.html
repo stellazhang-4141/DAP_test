@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>预测结果</title>
+    <title>Prediction Result</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <style>
-        /* 聊天容器样式 */
        .chat-container {
             display: flex;
             flex-direction: column;
@@ -20,23 +19,19 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* 消息样式 */
        .message {
             display: flex;
             margin-bottom: 20px;
         }
 
-        /* 左侧机器人消息样式 */
        .message-left {
             justify-content: flex-start;
         }
 
-        /* 右侧机器人消息样式 */
        .message-right {
             justify-content: flex-end;
         }
 
-        /* 机器人图片样式 */
        .robot-image {
             width: 50px;
             height: 50px;
@@ -44,30 +39,25 @@
             margin: 0 10px;
         }
 
-        /* 消息内容样式 */
        .message-content {
             padding: 10px 15px;
             border-radius: 10px;
             max-width: 70%;
         }
 
-        /* 左侧消息内容样式 */
-       .message-left .message-content {
+       .message-left.message-content {
             background-color: #e0f7fa;
         }
 
-        /* 右侧消息内容样式 */
-       .message-right .message-content {
+       .message-right.message-content {
             background-color: #f1f8e9;
         }
 
-        /* 标题样式 */
         h1 {
             text-align: center;
             margin-bottom: 20px;
         }
 
-        /* 返回主页按钮样式 */
        .back-button {
             display: block;
             width: fit-content;
@@ -78,31 +68,41 @@
 
 <body class="bg-gray-100">
     <div class="chat-container">
-        <h1>行号 {{ row_index }} 的预测结果</h1>
+        <h1>Prediction Result for Row {{ row_num }}</h1>
         {% if conversation %}
-            {% for message in conversation %}
-                {% if loop.index is odd %}
-                    <!-- 奇数轮，假设是左侧机器人（Agent A）回复 -->
+            {% for msg in conversation %}
+                {% if msg.agent == "Agent A" %}
                     <div class="message message-left">
-                        <img class="robot-image" src="https://picsum.photos/50/50?random=1" alt="Agent A">
+                        < img class="robot-image" src="https://picsum.photos/50/50?random=1" alt="Agent A">
                         <div class="message-content">
-                            <p>{{ message.response }}</p >
+                            <p>
+                                {% if '\n' in msg.message %}
+                                    {{ msg.message.split('\n')[0] }}
+                                {% else %}
+                                    {{ msg.message }}
+                                {% endif %}
+                            </p >
                         </div>
                     </div>
                 {% else %}
-                    <!-- 偶数轮，假设是右侧机器人（Agent B）回复 -->
                     <div class="message message-right">
                         <div class="message-content">
-                            <p>{{ message.response }}</p >
+                            <p>
+                                {% if '\n' in msg.message %}
+                                    {{ msg.message.split('\n')[0] }}
+                                {% else %}
+                                    {{ msg.message }}
+                                {% endif %}
+                            </p >
                         </div>
-                        <img class="robot-image" src="https://picsum.photos/50/50?random=2" alt="Agent B">
+                        < img class="robot-image" src="https://picsum.photos/50/50?random=2" alt="Agent B">
                     </div>
                 {% endif %}
             {% endfor %}
         {% else %}
-            <p class="text-center">未获取到对话内容</p >
+            <p class="text-center">No conversation content available</p >
         {% endif %}
-        返回主页
+        <a href=" " class="back-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Back to Homepage</a >
     </div>
 </body>
 

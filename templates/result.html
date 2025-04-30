@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <style>
-       .chat-container {
+        .chat-container {
             display: flex;
             flex-direction: column;
             max-width: 800px;
@@ -19,38 +19,45 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-       .message {
+        .message {
             display: flex;
             margin-bottom: 20px;
         }
 
-       .message-left {
+        .message-left {
             justify-content: flex-start;
         }
 
-       .message-right {
+        .message-right {
             justify-content: flex-end;
         }
 
-       .robot-image {
+        .robot-image {
             width: 50px;
             height: 50px;
             border-radius: 50%;
             margin: 0 10px;
         }
 
-       .message-content {
+        .message-content {
             padding: 10px 15px;
             border-radius: 10px;
             max-width: 70%;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
         }
 
-       .message-left.message-content {
+        .message-left .message-content {
             background-color: #e0f7fa;
         }
 
-       .message-right.message-content {
+        .message-right .message-content {
             background-color: #f1f8e9;
+        }
+
+        .message-content p {
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 15px;
+            line-height: 1.4;
         }
 
         h1 {
@@ -58,7 +65,7 @@
             margin-bottom: 20px;
         }
 
-       .back-button {
+        .back-button {
             display: block;
             width: fit-content;
             margin: 20px auto;
@@ -71,31 +78,24 @@
         <h1>Prediction Result for Row {{ row_num }}</h1>
         {% if conversation %}
             {% for msg in conversation %}
+                {% if loop.first or conversation[loop.index0 - 1].round != msg.round %}
+                    <div class="text-center my-2 text-sm text-gray-500">
+                        <strong>Round {{ msg.round }}</strong>
+                    </div>
+                {% endif %}
                 {% if msg.agent == "Agent A" %}
                     <div class="message message-left">
-                        < img class="robot-image" src="https://picsum.photos/50/50?random=1" alt="Agent A">
+                        <img class="robot-image" src="https://picsum.photos/50/50?random=1" alt="Agent A">
                         <div class="message-content">
-                            <p>
-                                {% if '\n' in msg.message %}
-                                    {{ msg.message.split('\n')[0] }}
-                                {% else %}
-                                    {{ msg.message }}
-                                {% endif %}
-                            </p >
+                            <p class="whitespace-pre-wrap">{{ msg.message }}</p >
                         </div>
                     </div>
                 {% else %}
                     <div class="message message-right">
                         <div class="message-content">
-                            <p>
-                                {% if '\n' in msg.message %}
-                                    {{ msg.message.split('\n')[0] }}
-                                {% else %}
-                                    {{ msg.message }}
-                                {% endif %}
-                            </p >
+                            <p class="whitespace-pre-wrap">{{ msg.message }}</p >
                         </div>
-                        < img class="robot-image" src="https://picsum.photos/50/50?random=2" alt="Agent B">
+                        <img class="robot-image" src="https://picsum.photos/50/50?random=2" alt="Agent B">
                     </div>
                 {% endif %}
             {% endfor %}

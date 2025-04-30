@@ -2,37 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Salary Prediction</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Salary Prediction</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-100">
-    <div class="container mx-auto p-8">
-        <h1 class="text-3xl font-bold mb-4">Employee Salary Prediction</h1>
-        {% if error_message %}
-        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
-            <span class="block sm:inline">{{ error_message }}</span>
-        </div>
-        {% endif %}
-        <form method="post" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="row_index">
-                    Please enter the row name for prediction（such as：101）
-                </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    id="row_index" type="text" name="row_index" required>
-            </div>
-            <div class="flex items-center justify-between">
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                    type="submit">
-                    Predict
-                </button>
-            </div>
-        </form>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="w-full max-w-lg p-8 bg-white rounded shadow-md text-center">
+    <h1 class="text-3xl font-bold mb-8 whitespace-nowrap">Employee Salary Prediction</h1>
+
+    {% if error_message %}
+    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
+      <span class="block sm:inline">{{ error_message }}</span>
     </div>
+    {% endif %}
+
+    <form method="post">
+      <div class="mb-6 text-left">
+        <label class="block text-gray-700 text-sm font-semibold mb-2" for="row_index">
+          Please enter the row name for prediction (such as: 101)
+        </label>
+        <input
+          class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 text-lg leading-tight focus:outline-none focus:shadow-outline"
+          id="row_index" type="text" name="row_index" required />
+      </div>
+
+      <div class="flex justify-center">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline"
+          type="submit">
+          Predict
+        </button>
+      </div>
+    </form>
+  </div>
 </body>
 
 </html>

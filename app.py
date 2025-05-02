@@ -11,6 +11,10 @@ import re
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def home():
+    return render_template('index.html')
+
 # 直接设置API密钥
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")

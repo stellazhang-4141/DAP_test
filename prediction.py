@@ -25,7 +25,7 @@ from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 model.fit(train_features, train_target)
 
-print("✅ Linear Regression model trained successfully!")
+print(" Linear Regression model trained successfully!")
 
 model_coefficients = model.coef_
 model_intercept = model.intercept_
@@ -40,7 +40,7 @@ GPT_API_KEY = os.getenv("GPT_API_KEY")
 # 7. Define API call functions
 def call_gemini(api_key, prompt):
     if not api_key or "AIza" not in api_key:
-        print("❌ Gemini API Key seems invalid. Please check your key.")
+        print(" Gemini API Key seems invalid. Please check your key.")
         return None
     
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key={api_key}"
@@ -55,16 +55,16 @@ def call_gemini(api_key, prompt):
         if response.status_code == 200:
             return response.json()['candidates'][0]['content']['parts'][0]['text']
         else:
-            print(f"❌ Gemini API call failed: {response.status_code}")
+            print(f" Gemini API call failed: {response.status_code}")
             print(response.text)
             return None
     except Exception as e:
-        print(f"❌ Gemini call error: {e}")
+        print(f" Gemini call error: {e}")
         return None
 
 def call_gpt(api_key, prompt):
     if not api_key or not api_key.startswith("sk-"):
-        print("❌ GPT API Key seems invalid. Please check your key.")
+        print(" GPT API Key seems invalid. Please check your key.")
         return None
     
     client = openai.OpenAI(api_key=api_key)
@@ -82,7 +82,7 @@ def call_gpt(api_key, prompt):
         )
         return response.choices[0].message.content
     except Exception as e:
-        print(f"❌ GPT API call failed: {e}")
+        print(f" GPT API call failed: {e}")
         return None
 
 # 8. Prediction & Discussion Loop
@@ -95,7 +95,7 @@ while True:
 
         row_index = int(user_input)
         if row_index < 100 or row_index >= len(df):
-            print(f"⚠️ Please enter a number >= 100 and < {len(df)}.")
+            print(f" Please enter a number >= 100 and < {len(df)}.")
             continue
 
         selected_features = features.iloc[[row_index]]
@@ -122,7 +122,7 @@ Please show:
 """
 
         # Step 1: Agent A (Gemini) predicts salary
-        print("\n🧠 Agent A (Gemini) Prediction:")
+        print("\n Agent A (Gemini) Prediction:")
         agent_a_response = call_gemini(GEMINI_API_KEY, prompt_agent_a)
         print(agent_a_response)
 
@@ -141,9 +141,9 @@ Be detailed and logical in your review.
 """
 
         # Step 2: Agent B (GPT) reviews and discusses
-        print("\n🧠 Agent B (GPT) Discussion and Final Decision:")
+        print("\n Agent B (GPT) Discussion and Final Decision:")
         agent_b_response = call_gpt(GPT_API_KEY, prompt_agent_b)
         print(agent_b_response)
 
     except Exception as e:
-        print(f"❌ An error occurred: {e}")
+        print(f" An error occurred: {e}")

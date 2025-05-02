@@ -1,48 +1,36 @@
+from flask import Flask, request, render_template
 import pandas as pd
-import requests
+import numpy as np
 import openai
+import requests
+import os
 from dotenv import load_dotenv
+from sklearn.linear_model import LinearRegression
 
-# 1. Load dataset
+# Load environment variables
+load_dotenv()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GPT_API_KEY = os.getenv("GPT_API_KEY")
+
+# Initialize Flask app
+app = Flask(__name__)
+
+# Load dataset and train model
 df = pd.read_csv("employees_dataset.csv")
-
-# 2. Prepare features and target
 features = df.drop(columns=['salary'])
 target = df['salary']
-
-# 3. Encode categorical variables (One-Hot Encoding)
 features_encoded = pd.get_dummies(features)
-
-# 4. Split dataset
 train_features = features_encoded.iloc[:100]
 train_target = target.iloc[:100]
-
-predict_features = features_encoded.iloc[100:]
-predict_target = target.iloc[100:]
-
-# 5. Train Linear Regression
-from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 model.fit(train_features, train_target)
-
-print(" Linear Regression model trained successfully!")
 
 model_coefficients = model.coef_
 model_intercept = model.intercept_
 feature_names = train_features.columns.tolist()
 
-# 6. Setup API keys
-import os
-load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GPT_API_KEY = os.getenv("GPT_API_KEY")
-
-# 7. Define API call functions
+# ============ LLM API functions ============
 def call_gemini(api_key, prompt):
-    if not api_key or "AIza" not in api_key:
-        print(" Gemini API Key seems invalid. Please check your key.")
-        return None
-    
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     payload = {
@@ -55,54 +43,37 @@ def call_gemini(api_key, prompt):
         if response.status_code == 200:
             return response.json()['candidates'][0]['content']['parts'][0]['text']
         else:
-            print(f" Gemini API call failed: {response.status_code}")
-            print(response.text)
-            return None
+            return f"Gemini API error: {response.status_code}"
     except Exception as e:
-        print(f" Gemini call error: {e}")
-        return None
+        return f"Gemini call error: {e}"
 
 def call_gpt(api_key, prompt):
-    if not api_key or not api_key.startswith("sk-"):
-        print(" GPT API Key seems invalid. Please check your key.")
-        return None
-    
-    client = openai.OpenAI(api_key=api_key)
-
-    # 修正非ASCII字符，避免编码报错
-    safe_prompt = prompt.encode('utf-8', errors='ignore').decode('utf-8')
-
     try:
+        client = openai.OpenAI(api_key=api_key)
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a salary prediction expert."},
-                {"role": "user", "content": safe_prompt}
+                {"role": "user", "content": prompt}
             ]
         )
         return response.choices[0].message.content
     except Exception as e:
-        print(f" GPT API call failed: {e}")
-        return None
+        return f"GPT API call error: {e}"
 
-# 8. Prediction & Discussion Loop
-while True:
+# ============ Predict Route ============
+@app.route('/predict', methods=['POST'])
+def predict():
     try:
-        user_input = input("\nEnter the row number you want to predict (e.g., 101), or type 'quit' to exit: ")
-        if user_input.lower() == 'quit':
-            print("Program exited. Goodbye!")
-            break
-
-        row_index = int(user_input)
+        row_index = int(request.form.get("row_num"))
         if row_index < 100 or row_index >= len(df):
-            print(f" Please enter a number >= 100 and < {len(df)}.")
-            continue
+            return f"Row number must be >= 100 and < {len(df)}", 400
 
         selected_features = features.iloc[[row_index]]
         selected_features_encoded = pd.get_dummies(selected_features)
         selected_features_encoded = selected_features_encoded.reindex(columns=feature_names, fill_value=0)
 
-        # Compose prompt for Agent A
+        # Agent A prompt
         prompt_agent_a = f"""
 You are Agent A, a salary prediction expert. Based on the following trained linear regression model, please calculate the employee's salary step-by-step:
 
@@ -120,13 +91,9 @@ Please show:
 2. Sum of contributions + intercept.
 3. Final predicted salary.
 """
-
-        # Step 1: Agent A (Gemini) predicts salary
-        print("\n Agent A (Gemini) Prediction:")
         agent_a_response = call_gemini(GEMINI_API_KEY, prompt_agent_a)
-        print(agent_a_response)
 
-        # Compose prompt for Agent B (based on Agent A's answer)
+        # Agent B prompt
         prompt_agent_b = f"""
 You are Agent B, a salary prediction expert. Here is Agent A's salary prediction:
 
@@ -139,11 +106,13 @@ Your task:
 4. Show your own final salary prediction.
 Be detailed and logical in your review.
 """
-
-        # Step 2: Agent B (GPT) reviews and discusses
-        print("\n Agent B (GPT) Discussion and Final Decision:")
         agent_b_response = call_gpt(GPT_API_KEY, prompt_agent_b)
-        print(agent_b_response)
 
+        return render_template("result.html",
+                               row_num=row_index,
+                               conversation=[
+                                   {"round": 1, "agent": "Agent A", "message": agent_a_response},
+                                   {"round": 2, "agent": "Agent B", "message": agent_b_response}
+                               ])
     except Exception as e:
-        print(f" An error occurred: {e}")
+        return f"Internal Server Error: {e}", 500

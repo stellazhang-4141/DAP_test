@@ -1,5 +1,6 @@
 flask
 numpy
 pandas
+gunicorn
 scikit-learn
 openai>=1.0.0

@@ -11,10 +11,6 @@ import re
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-def home():
-    return render_template('index.html')
-
 # 直接设置API密钥
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -55,7 +51,7 @@ def extract_prediction(text, fallback, low=30000, high=300000):
     return fallback
 
 # 模拟 AI 谈判函数
-def simulate_interactive_negotiation_with_api(features_row, y_true, risk1='seeking', risk2='seeking',
+def simulate_interactive_negotiation_with_api(features_row, y_true, risk1='averse', risk2='seeking',
                                               threshold=100, max_rounds=10):
     base_pred = model.predict([features_row])[0]
     agent1_pred = base_pred
@@ -167,7 +163,7 @@ def predict():
     conversation, final_pred, rmse, rounds = simulate_interactive_negotiation_with_api(
         features_row,
         y_true,
-        risk1='seeking',
+        risk1='averse',
         risk2='seeking'
     )
 
